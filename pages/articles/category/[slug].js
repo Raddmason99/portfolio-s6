@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router'
 
 //import styling
-//
+import art_style from '../../../styles/Articles.module.scss'
 
 //import database
 import { results } from '../../../test_data.json';

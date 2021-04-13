@@ -1,17 +1,23 @@
-//fonts
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/*  Import app specific styling variables 
+    Portfolio Mathijs S6 */
 
-@font-face {
-    font-family: 'Segoe';
-    src: url('../public/fonts/segoe/Segoe\ UI.woff');
-  }
-
-//variables
+//import colour variables
 @import "variables";
 
-//global styles
+//import global styles
 @import "globals";
+@import "containers";
 
-//import module
-@import "Main.module.scss";
-@import "Sidebar.module.scss";
+//Header font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+//Sub-title font
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+//Text font
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@300;1,400;1,600;1,700;1,800&display=swap');
+
+//import all modular styles
+@import "Articles.module.scss";
+@import "Auth.module.scss";
+@import "Header.module.scss";
+@import "Home.module.scss";
+@import "Error.module.scss";

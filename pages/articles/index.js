@@ -2,7 +2,7 @@
 import Head from 'next/head'
 
 //import styling
-//
+import art_style from '../../styles/Articles.module.scss'
 
 //construct return page-elements
 const Articles_page = () => {
@@ -11,7 +11,7 @@ const Articles_page = () => {
             <Head>
                 <title></title>
             </Head>
-            <main className={ }>
+            <main className="body_container">
 
 
 

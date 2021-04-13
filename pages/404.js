@@ -6,7 +6,7 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 
 //import styling
-//
+import art_style from '../styles/Error.module.scss'
 
 //construct return page-elements
 const NotFound_page = () => {
@@ -26,7 +26,7 @@ const NotFound_page = () => {
             <Head>
                 <title></title>
             </Head>
-            <main className={ }>
+            <main className="body_container">
 
 
 
