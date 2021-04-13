@@ -1,0 +1,17 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: 'Segoe';
+    src: url('../public/fonts/segoe/Segoe\ UI.woff');
+  }
+
+//variables
+@import "variables";
+
+//global styles
+@import "globals";
+
+//import module
+@import "Main.module.scss";
+@import "Sidebar.module.scss";

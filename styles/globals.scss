@@ -1,0 +1,68 @@
+@import "variables";
+
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: $white;
+}
+
+//headings
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'montserrat';
+  font-size: 20px;
+  text-decoration: none;
+  color: $black;
+  padding: 0;
+  margin: 5px;
+  text-align: center;
+}
+
+//texts
+a, p, li, span, label, input {
+  font-family: "Segoe";
+  text-decoration: none;
+  color: $black;
+  padding: 0;
+  margin: 0;
+}
+
+svg {
+  height: 20px;
+}
+
+//images
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.bold {
+  font-weight: bold;
+}
+section:first-child{
+  margin-top:0  !important
+}
+
+section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  border-radius: 6px;
+  border-style: none;
+}
+
+button:active {
+  border-bottom: solid 1px;
+  transform: translateY(2px);
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  opacity: 1;
+}
