@@ -5,6 +5,8 @@ import Head from 'next/head'
 const Meta = ({ children }) => {
     return (
         <Head>
+            <link rel="manifest" href="/manifest.json" />
+
             { children}
         </Head>
     );
