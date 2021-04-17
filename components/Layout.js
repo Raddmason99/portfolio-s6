@@ -1,6 +1,7 @@
 //import components
 import Meta from './Meta'
 import Header from './Header'
+import Footer from './Footer'
 
 //construct Page Layout
 const Layout = ({ children }) => {
@@ -11,6 +12,7 @@ const Layout = ({ children }) => {
             <main>
                 {children}
             </main>
+            <Footer />
         </>
     );
 }

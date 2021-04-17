@@ -1,9 +1,10 @@
 //import NextJS dependencies
 import Head from 'next/head'
+import Link from 'next/link'
 import { useEffect } from 'react'
 
 //import styling
-import art_style from '../styles/Home.module.scss'
+import home_style from '../styles/Home.module.scss'
 
 //construct return page-elements
 const Home_page = () => {
@@ -80,14 +81,24 @@ const Home_page = () => {
     }
   }, [])
 
+
   return (
     <>
       <Head>
-        <title></title>
+        <title>Portfolio | Home</title>
       </Head>
       <main className="body_container">
 
+        <section>
 
+          <div>
+            <h2>Media Design Student</h2>
+            <p>6th Semester</p>
+          </div>
+
+          <img src="/illustrations/undraw_Code_thinking_re_gka2.svg" />
+
+        </section>
 
       </main>
     </>

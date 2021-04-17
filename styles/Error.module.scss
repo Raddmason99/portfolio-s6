@@ -1,2 +1,28 @@
 //import colour variables
 @import "variables";
+
+.error_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error_image {
+    height: auto;
+    max-width: 80vw;
+    margin-top: 15vh;
+}
+
+.error_text {
+    margin: 15px;
+    text-align: center;
+}
+
+.error_text h2 {
+    margin: 5px;
+}
+
+.error_text p {
+    margin: 5px;
+}

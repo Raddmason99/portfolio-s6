@@ -10,19 +10,30 @@ body {
   background: $white;
 }
 
-//Header font
+// Title Font
 h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 26px;
+  font-weight: 100;
+  word-spacing: 6px;
+  color: $black;
+}
+
+// Header Font
+h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   color: $black;
 }
-//Sub-title font
-h1, h2, h3, h4, h5, h6 {
+
+// Sub Font
+h3, h4, h5, h6 {
   font-family: 'Hind Siliguri', sans-serif;
   font-size: 20px;
   color: $black;
 }
-//texts
+
+// Text Font
 a, p, li, span, label, input {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;

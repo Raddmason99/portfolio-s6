@@ -9,14 +9,18 @@ import hdr_style from '../styles/Header.module.scss'
 const Header = () => {
     return (
         <>
-            <Head>
-                <title></title>
-            </Head>
-            <main className="body_container">
+            <section className={hdr_style.header_container}>
+                <div className={hdr_style.header_logo}>
+                    <Link href="/"><h2>Fluxpuck</h2></Link>
+                </div>
+                <div className={hdr_style.nav_container}>
+                    <nav className={hdr_style.nav_block}>
+                        <Link href="/first"><p>Race-to-Resilience</p></Link>
+                        <Link href="/second"><p>Second Part</p></Link>
 
-
-
-            </main>
+                    </nav>
+                </div>
+            </section>
         </>
     );
 }
