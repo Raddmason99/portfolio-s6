@@ -46,7 +46,7 @@ const Articles = () => {
             <Head>
                 <title></title>
             </Head>
-            <main className={ }>
+            <main className="body_container">
 
 
 
