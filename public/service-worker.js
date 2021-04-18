@@ -81,7 +81,7 @@ if (!self.define) {
     });
   };
 }
-define("./sw.js",['./workbox-6b19f60b'], function (workbox) { 'use strict';
+define("./service-worker.js",['./workbox-6b19f60b'], function (workbox) { 'use strict';
 
   /**
   * Welcome to your Workbox-powered service worker!
@@ -133,4 +133,4 @@ define("./sw.js",['./workbox-6b19f60b'], function (workbox) { 'use strict';
   }), 'GET');
 
 });
-//# sourceMappingURL=sw.js.map
+//# sourceMappingURL=service-worker.js.map

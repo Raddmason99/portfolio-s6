@@ -34,9 +34,9 @@ yarn-error.log*
 .vercel
 
 # pwa development
-/public/*js.map
-/public/workbox*.js
-/public/worker-development.js
+**/public/workbox-*.js
+**/public/sw.js
+**/public/fallback-*.js
 
 # test data
 test_data.json

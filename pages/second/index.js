@@ -4,7 +4,6 @@ import Link from 'next/link'
 
 //import styling
 import sec_style from '../../styles/Second.module.scss'
-import home_style from '../../styles/Home.module.scss'
 
 //construct return page-elements
 const Second_page = () => {
@@ -15,11 +14,11 @@ const Second_page = () => {
             </Head>
             <main className="body_container">
 
-                <nav className={home_style.nav_block}>
+                <nav className={sec_style.nav_block}>
                     <Link href="#inleiding"><p>Inleiding</p></Link>
                     <Link href="#proces"><p>Proces</p></Link>
                     <Link href="#product"><p>Product</p></Link>
-                    <Link href="#conclusie"><p>Inleiding</p></Link>
+                    <Link href="#conclusie"><p>Conclusie</p></Link>
                     <Link href="#reflectie"><p>Reflectie</p></Link>
                 </nav>
 
