@@ -21,12 +21,16 @@
     }  
 
     .inbetween_button01 {
-        display: block;
+        display: flex;
+        align-items: center;
         background-color: $green_04;
+        text-align: center;
+        width: fit-content;
         padding: 8px 30px 8px 30px;
         border-radius: 25px;
         border-bottom: solid 4px $gray_04;
         color: $white;
+        margin: 0 10px 0 10px
     }
     .inbetween_button01:hover {
         background-color: $green_03;
@@ -35,12 +39,16 @@
     }
 
     .inbetween_button02 {
-        display: block;
+        display: flex;
+        align-items: center;
         background-color: $green_03;
+        text-align: center;
+        width: fit-content;
         padding: 8px 30px 8px 30px;
         border-radius: 25px;
         border-bottom: solid 4px $gray_04;
         color: $white;
+        margin: 0 10px 0 10px
     }
     .inbetween_button02:hover {
         background-color: $green_02;
@@ -48,10 +56,32 @@
         transform: translateY(2px);
     }
 
+    .inbetween_button03 {
+        display: flex;
+        align-items: center;
+        background-color: $green_03;
+        text-align: center;
+        width: fit-content;
+        padding: 8px 30px 8px 30px;
+        border-radius: 25px;
+        color: $white;
+        margin: 0 10px 0 10px
+    }
+
 
     
 /*  Navigation block on first 
     and second project page */
+
+    .nav_container {
+        display: block;
+        background-color: $white;
+        box-shadow: 0px 3px 4px -4px $gray_05;
+        width: 100%;
+        z-index: 100;
+        position: sticky;
+        top: 0;
+    }
 
     .nav_block {
         display: flex;
@@ -61,8 +91,7 @@
         margin: auto;
         width: 70vw;
     
-        position: sticky;
-        top: 0;
+
     }
     
     .nav_block p {
@@ -135,13 +164,146 @@
 
 /*  Second Section - Opening 
     contains orientation phase */
+
 .inleiding_container {
 display: block;
+}
+
+/*  Third Section -  */
+
+.process_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 30px;
+}
+
+.process_header img {
+    height: 30px;
+    width: 30px;
+
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.process_image {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 
 
 
+.researchquestions_header {
+    display: block;
+    background-color: $green_03;
+    padding: 8px 30px 8px 30px;
+    border-radius: 25px;
+    color: $white;
+    cursor: pointer;
+    margin: 10px 0 20px 0;
+}
+
+.researchquestions_header p {
+    color: $white;
+    margin: 0;
+}
+
+.researchquestions_header:hover {
+    background-color: $green_04;
+}
+
+
+
+
+
+
+
+
+.research_box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+}
+
+.research_box img {
+    max-width: 350px;
+    height: auto;
+    margin: 20px;
+}
+
+.conclusion_research_01 {
+    background-color: $green_05;
+    border-radius: 12px;
+    padding: 10px 20px 20px 20px;
+    margin: 10px 0 20px 0;
+}
+
+.conclusion_research_01_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.conclusion_research_01_title p {
+    color: $green_02;
+    margin: 5px 0 5px 0;
+}
+
+.research_file_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.analysis_container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 20px 0 40px 0;
+}
+
+.analysis_box {
+    background-color: $gray_02;
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px;
+    border-bottom: solid 4px $gray_04;
+}
+.analysis_box:hover{
+    background-color: $gray_03;
+    border-bottom: solid 1px $gray_04;
+    transform: translateY(2px);
+    cursor: pointer;
+}
+
+.analysis_boxer {
+    display: grid;
+    grid-template-rows: auto 250px auto;
+    grid-gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.analysis_box img {
+    max-width:100%;
+    max-height:90%;
+}
+
+.analysis_box h3 {
+    margin: 5px;
+    text-align: center;
+}
+
+.analysis_box a {
+    margin: auto;
+}
 
 
 
