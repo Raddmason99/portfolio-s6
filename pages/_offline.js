@@ -18,7 +18,7 @@ const Offline_page = () => {
                         src='/illustrations/undraw_Notify_re_65on.svg'
                     />
                     <div className={err_style.error_text}>
-                        <h2>Oops! You are currently offline!.</h2>
+                        <h2>Oops! You are currently offline!</h2>
                         <p>It seems like you are having connection issues...</p>
                     </div>
                 </div>

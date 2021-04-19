@@ -4,6 +4,7 @@ import Link from 'next/link'
 
 //import styling
 import sec_style from '../../styles/Second.module.scss'
+import err_style from '../../styles/Error.module.scss'
 
 //construct return page-elements
 const Second_page = () => {
@@ -14,39 +15,17 @@ const Second_page = () => {
             </Head>
             <main className="body_container">
 
-                <nav className={sec_style.nav_block}>
-                    <Link href="#inleiding"><p>Inleiding</p></Link>
-                    <Link href="#proces"><p>Proces</p></Link>
-                    <Link href="#product"><p>Product</p></Link>
-                    <Link href="#conclusie"><p>Conclusie</p></Link>
-                    <Link href="#reflectie"><p>Reflectie</p></Link>
-                </nav>
 
-                <section id="inleiding">
-                    <p>
-                        kaas is baas
-</p>
-                </section>
-                <section id="proces">
-                    <p>
-                        kaas is baas
-</p>
-                </section>
-                <section id="product">
-                    <p>
-                        kaas is baas
-</p>
-                </section>
-                <section id="conclusie">
-                    <p>
-                        kaas is baas
-</p>
-                </section>
-                <section id="reflectie">
-                    <p>
-                        kaas is baas
-</p>
-                </section>
+                <div className={err_style.error_container}>
+                    <img className={err_style.error_image}
+                        src='/illustrations/undraw_Notify_re_65on.svg'
+                    />
+                    <div className={err_style.error_text}>
+                        <h2>Wow! Hier valt nog niks te zien!</h2>
+                        <p>Deze pagina wordt binnenkort gevuld met nogmeer leesvermaak!</p>
+                    </div>
+                </div>
+
 
             </main>
         </>

@@ -40,7 +40,7 @@ const First_page = () => {
                     <div className={frst_style.intro_container_inherit}>
                         <div className={frst_style.intro_container_textbox}>
                             <h2>De ontwikkeling van een gebruiksvriendelijke mobiele interface voor een kennisplatform</h2>
-                            <p>United Nation's Race to Resilience Channelge</p>
+                            <p>United Nation's Race to Resilience Challenge</p>
                         </div>
                     </div>
                 </section>
@@ -436,7 +436,8 @@ const First_page = () => {
 
                     <article>
                         <h2>Reflectie</h2>
-                        <p>Tekst...</p>
+                        <p>Binnen dit project heb ik gewerkt aan een hele ontwikkel-cycles. Van het onderzoeken, designen en testen tot de development. Daarnaast ben ik ook bezig geweest met het managen van het project en de project groep. Ik voelde mij verantwoordelijk voor de voortgang en samenwerking binnen de groep. Hiervoor heb ik me sterk gemaakt en naar aanleiding van een gesprek hebben we goede en duidelijke afspraken gemaakt. Het project en de communicatie verliep goed daarna en daar bij ik enorm tevreden mee.</p>
+                        <p>Voor de development heb ik, in samenspraak met de projectgroep, gekozen voor een vrij nieuw framework, genaamd NextJS. Voorheen was ik niet bekent met het framework en ik heb veel tijd gestopt het ontwikkelen van de benodige vaardigheden om goed gebruik te maken van dit framework. Hiermee toon ik aan dat ik een leergierige en harde werker ben die zich graag ontwikkeld.</p>
                     </article>
 
                 </section>
