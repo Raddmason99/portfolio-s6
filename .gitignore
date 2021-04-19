@@ -40,3 +40,5 @@ yarn-error.log*
 
 # test data
 test_data.json
+
+/articles
