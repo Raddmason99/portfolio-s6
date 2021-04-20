@@ -403,7 +403,21 @@ const First_page = () => {
                             <h3>Prototypefase</h3>
                             <img src="/dot_framework/100px-Logo-workshop.png" />
                         </div>
-                        <p>Tekst...</p>
+                        <p>De prototypefase was een leerzame fase. Er is, in overleg met de project-groep, gekozen om gebruik te maken van het NextJS framework. De mogelijkheden van server-side rendering en het genereren van statische webpaginas zijn krachtige tools om een kennis-platform schaalbaar maken zonder veel performance verlies.</p>
+                        <p className="quote">“NextJS is een open-source React front-end framework met functionaliteiten als server-side rendering en het genereren van statische webpaginas.”</p>
+                        <p>In samenwerking met Leo hebben we de FHICT GitLab pagina opgezet en de project leden toegevoegd. Wij zijn daarbij de “Maintainers” en regelen de merge-requests, dit om merge-conflicts te voorkomen.</p>
+
+                        <div className={frst_style.research_box}>
+                            <div>
+                                <div>
+                                    <p>Bij een gebrek aan beslissing(en) heb ik de taak op me genomen om de development omgeving (layout, routing, pagina’s, etc.) op te zetten. Dit stelde de overige groep-leden in staat om hun pagina’s eenvoudiger te implementeren in een framework dat nieuw is voor iedereen. Daarbij zijn onder andere dynamische pagina’s geïmplementeerd aan de hand van statische (test) data en een dynamische header, met illustraties en een go-back-button.</p>
+                                    <p>Verder is door mij de “Write a Solution” pagina geïmplementeerd. Een formulier waarop gebruikers een oplossing voor klimaatverandering kunnen plaatsen. Hierbij is input van de opdrachtgevers omtrent de categorieën en de mogelijkheid om de impact van een oplossing weer te geven toegevoegd.</p>
+                                    <br />
+                                </div>
+                            </div>
+                            <img src="/illustrations/undraw_Code_review_re_woeb.svg" />
+                        </div>
+
                     </article>
                 </section>
 
