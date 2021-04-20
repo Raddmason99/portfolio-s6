@@ -67,7 +67,38 @@ const First_page = () => {
                         <h3>MoSCoW</h3>
                         <p>Om structuur aan het project te geven zijn de oplever-doelen omschreven doormiddel van een MoSCoW methode. Hierin staan de belangrijkste zaken die het minimun viable product (MPV) zou moeten bevatten.</p>
 
-                        <p>MoSCoW hier...</p>
+                        <div className={frst_style.research_box}>
+                            <div className={frst_style.moscow_container}>
+                                <p className={frst_style.moscow_title}><b>Must haves</b></p>
+                                <p className={frst_style.moscow_text}>
+                                    - Digitaal platform onderzoek <br />
+                                - Trendonderzoek <br />
+                                - Technisch onderzoek <br />
+                                - Doelgroep onderzoek <br />
+                                - Huidige website analyse <br />
+                                - Mobile-first ontwerp <br />
+                                - Mobile-first prototypes <br />
+                                </p>
+                                <p className={frst_style.moscow_title}><b>Should haves</b></p>
+                                <p className={frst_style.moscow_text}>
+                                    - Scrum methode <br />
+                                - User tests <br />
+                                </p>
+                                <p className={frst_style.moscow_title}><b>Could haves</b></p>
+                                <p className={frst_style.moscow_text}>
+                                    - Installeerbare (PWA) <br />
+                                - Offline mogelijkheden <br />
+                                </p>
+                                <p className={frst_style.moscow_title}><b>Won't haves</b></p>
+                                <p className={frst_style.moscow_text}>
+                                    - Native Applicatie bouwen <br />
+                                - Marketing <br />
+                                </p>
+                                <br />
+                            </div>
+                            <img src="/illustrations/undraw_home_screen_4n7s.svg" />
+                        </div>
+
 
                     </article>
 
@@ -426,12 +457,12 @@ const First_page = () => {
                 <section className={frst_style.inbetween01_container}>
                     <div className={frst_style.inbetween01_box}>
                         <a className={frst_style.inbetween_button01}
-                            href="/documents/"
+                            href="https://git.fhict.nl/I382255/race-to-resilience"
                             target="_blank">
                             GitLab Repo
                         </a>
                         <a className={frst_style.inbetween_button02}
-                            href="/documents/"
+                            href="https://git.fhict.nl/I382255/race-to-resilience/-/wikis/home"
                             target="_blank">
                             GitLab Wiki
                         </a>
