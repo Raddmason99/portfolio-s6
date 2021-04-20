@@ -449,7 +449,17 @@ const First_page = () => {
 
                     <article>
                         <h2>Product</h2>
-                        <p>Tekst...</p>
+                        <p>Een aangepaste ambitieuze opdracht heeft de mogelijkheid gegeven om een gaaf prototype neer te zetten, gebaseerd op degelijk onderzoek en gevalideerd doormiddel van gebruikersonderzoek. Hieronder volgt een lijst met opgeleverde producten:</p>
+
+                        <h3>Prototype</h3>
+                        <p>Het belangrijkste opgeleverde product is het prototype. Hierin komen verschillende expertises in terug. Binnen dit product ben ik voornamelijk bezig geweest met het opzetten van de development omgeving: Git en de volledige layout, de “write-a-solution” pagina’s en de git documentatie (Wiki). Dit alles heeft gezorgd voor de front-end en een minimaal functionerend prototype van het kennisplatform voor de Race to Resilience Challenge.</p>
+
+                        <h3>Onderzoeken</h3>
+                        <p>Tijdens het project zijn er verschillende onderzoeken uitgevoerd om tot het huidige product te komen. Denk daarbij aan het onderzoek naar de deelvragen, waaronder digitale platformen en kwaliteiten van een mobiele. Deze zijn gebundeld in het hoofd onderzoekdocument.</p>
+
+                        <h3>Overdracht</h3>
+                        <p>Om het prototype goed over te dragen aan een potentieel nieuwe groep, is er gezorgd voor goede en duidelijke overdracht documentatie. Er is een bestand opgemaakt met daarin informatie over de bestanden, opleveringen, adviezen en wat er nog gedaan moet worden. Om de overdracht van het prototype en de daarbij horende code te verbeteren is er door mij een Wiki aangemaakt op de GitLab repo. Hierin staat het gehele proces, inclusief documenten gelinkt, de verschillende ontwikkelingen en wat er nog gedaan moet en kan worden (beschreven per pagina). Ik hoop hiermee de (eventueel) volgende groep van voldoende informatie te hebben voorzien.</p>
+
                     </article>
 
                 </section>
