@@ -224,6 +224,24 @@ display: block;
     margin-bottom: 5px;
 }
 
+.mockup_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 30px 0 30px 0;
+}
+.mockup_container p {
+    margin: 2px;
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+}
+
+.mockup {
+    max-width: 400px;
+    max-height: auto;
+}
+
 
 .research_box {
     display: grid;
