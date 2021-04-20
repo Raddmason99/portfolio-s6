@@ -109,17 +109,17 @@ const First_page = () => {
                 <section className={frst_style.inbetween01_container}>
                     <div className={frst_style.inbetween01_box}>
                         <a className={frst_style.inbetween_button01}
-                            href="/documents/"
+                            href="/documents/Leeswijzer.pdf"
                             target="_blank">
                             Leeswijzer
                         </a>
                         <a className={frst_style.inbetween_button02}
-                            href="/documents/"
+                            href="/documents/Individuele_Analyse_Opdracht.pdf"
                             target="_blank">
                             Analyse Opdracht
                         </a>
                         <a className={frst_style.inbetween_button02}
-                            href="/documents/"
+                            href="/documents/Project_document.pdf"
                             target="_blank">
                             Project Document
                         </a>
@@ -197,7 +197,7 @@ const First_page = () => {
                                 </p>
 
                                 <a className={frst_style.inbetween_button01}
-                                    href="/documents/"
+                                    href="/documents/Onderzoeksopzet.pdf"
                                     target="_blank">
                                     Onderzoek opzet
                                 </a>
@@ -245,17 +245,17 @@ const First_page = () => {
                         </p>
                         <div className={frst_style.research_file_box}>
                             <a className={frst_style.inbetween_button01}
-                                href="/documents/"
+                                href="/documents/Digitale_platformen.pdf"
                                 target="_blank">
                                 Digitale platformen
                             </a>
                             <a className={frst_style.inbetween_button02}
-                                href="/documents/"
+                                href="/documents/Kwaliteiten_Mobiel_Interface.pdf"
                                 target="_blank">
                                 Kwaliteiten mobiele interface
                             </a>
                             <a className={frst_style.inbetween_button02}
-                                href="/documents/"
+                                href="/documents/Hoofd_onderzoek_document.pdf"
                                 target="_blank">
                                 Hoofd onderzoeks document
                             </a>
@@ -270,7 +270,7 @@ const First_page = () => {
                                     <h3>Heuristische analyse</h3>
                                     <img src="/illustrations/undraw_the_search_s0xf.svg" />
                                     <a className={frst_style.inbetween_button03}
-                                        href="/documents/"
+                                        href="/documents/Heuristische_Evaluatie_Wikihow.pdf"
                                         target="_blank">
                                         Heuristische analyse
                                     </a>
@@ -282,7 +282,7 @@ const First_page = () => {
                                     <h3>Userflow analyse</h3>
                                     <img src="/illustrations/undraw_design_notes_8dmv.svg" />
                                     <a className={frst_style.inbetween_button03}
-                                        href="/documents/"
+                                        href="/documents/Userflow_Analyse _Kennis_platform_posten.pdf"
                                         target="_blank">
                                         Userflow analyse
                                     </a>
@@ -294,7 +294,7 @@ const First_page = () => {
                                     <h3>Mobiele trend analyse</h3>
                                     <img src="/illustrations/undraw_mobile_ux_o0e1.svg" />
                                     <a className={frst_style.inbetween_button03}
-                                        href="/documents/"
+                                        href="/documents/Mobile_Design_Trend_Analyse.pdf"
                                         target="_blank">
                                         Mobiele trend analyse
                                     </a>
@@ -350,7 +350,7 @@ const First_page = () => {
                                 </p>
 
                                 <a className={frst_style.inbetween_button01}
-                                    href="/documents/"
+                                    href="/documents/Brainstorm_opzet.pdf"
                                     target="_blank">
                                     Brainstorm opzet
                                 </a>
@@ -387,12 +387,12 @@ const First_page = () => {
                         </p>
                         <div className={frst_style.research_file_box}>
                             <a className={frst_style.inbetween_button01}
-                                href="/documents/"
+                                href="/documents/Usability_Test_Write_a_Solution.pdf"
                                 target="_blank">
                                 Gebruikersonderzoek
                             </a>
                             <a className={frst_style.inbetween_button02}
-                                href="/documents/"
+                                href="/documents/Resultaten_Gebruikersonderzoek_Write_a_Solution.xlsx"
                                 target="_blank">
                                 Gebruikersonderzoek Resultaten Excel
                             </a>
