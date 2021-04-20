@@ -409,6 +409,27 @@ const First_page = () => {
 
 
 
+                <section className={frst_style.inbetween01_container}>
+                    <div className={frst_style.inbetween01_box}>
+                        <a className={frst_style.inbetween_button01}
+                            href="/documents/"
+                            target="_blank">
+                            GitLab Repo
+                        </a>
+                        <a className={frst_style.inbetween_button02}
+                            href="/documents/"
+                            target="_blank">
+                            GitLab Wiki
+                        </a>
+                        <a className={frst_style.inbetween_button02}
+                            href="/documents/"
+                            target="_blank">
+                            Overdrachts Document
+                        </a>
+                    </div>
+                </section>
+
+
 
                 <section id="product">
 
@@ -425,7 +446,18 @@ const First_page = () => {
 
                     <article>
                         <h2>Conclusie</h2>
-                        <p>Tekst...</p>
+                        <h3>“HOE ONTWIKKEL JE EEN GEBRUIKSVRIENDELIJKE MOBIELE INTERFACE VOOR EEN KENNISPLATFORM, WAARBIJ REKENING WORDT GEHOUDEN MET HET VOLGEN DELEN EN REAGEREN OP USER-GENERATED CONTENT?”</h3>
+                        <p>Het doel van de opdracht was om een kennisplatform te ontwerpen en uit te werken tot, minimaal, een functionerende prototype. Dit doel is bereikt door de drie overkoepelende processen te doorlopen.</p>
+                        <p>
+                            In het <b>analyseproces</b> is er georiënteerd naar de opdracht, zijn er literatuuronderzoeken gedaan naar de deelvragen, is er UX onderzoek gedaan naar huidige platformen en is er een analyse gemaakt van de mobiele trends.
+                            <br />
+                            <br />
+                            In het <b>realisatieproces</b> is er gebrainstormd en zijn er schetsen gemaakt. Bij de development is er gebruik gemaakt van het NextJS framework om een low-fidelity prototype te realiseren waarin enkele van de benodigde back-end functionaliteiten al werkzaam zijn.
+                            <br />
+                            <br />
+                            In het <b>meetproces</b> is er gekeken naar het ontwerp en de functionaliteiten van de “Write a solution” pagina’s doormiddel van een online gebruikersonderzoek. De resultaten hieruit zijn positief, zijn verder geanalyseerd en vormen een advies in de overdracht.
+                        </p>
+                        <p>Er kan dus geconcludeerd worden dat het realiseren van een minimaal functionerende prototype is behaald en dat er een gebruiksvriendelijke mobiele interface is ontwikkeld.</p>
                     </article>
 
                 </section>
@@ -437,7 +469,7 @@ const First_page = () => {
                     <article>
                         <h2>Reflectie</h2>
                         <p>Binnen dit project heb ik gewerkt aan een hele ontwikkel-cycles. Van het onderzoeken, designen en testen tot de development. Daarnaast ben ik ook bezig geweest met het managen van het project en de project groep. Ik voelde mij verantwoordelijk voor de voortgang en samenwerking binnen de groep. Hiervoor heb ik me sterk gemaakt en naar aanleiding van een gesprek hebben we goede en duidelijke afspraken gemaakt. Het project en de communicatie verliep goed daarna en daar bij ik enorm tevreden mee.</p>
-                        <p>Voor de development heb ik, in samenspraak met de projectgroep, gekozen voor een vrij nieuw framework, genaamd NextJS. Voorheen was ik niet bekent met het framework en ik heb veel tijd gestopt het ontwikkelen van de benodige vaardigheden om goed gebruik te maken van dit framework. Hiermee toon ik aan dat ik een leergierige en harde werker ben die zich graag ontwikkeld.</p>
+                        <p>Voor de development heb ik, in samenspraak met de projectgroep, gekozen voor een vrij nieuw framework, genaamd NextJS. Voorheen was ik niet bekent met het framework en ik heb veel tijd gestopt in het ontwikkelen van de benodigde vaardigheden om goed gebruik te maken van dit framework. Hiermee toon ik aan dat ik een leergierige en harde werker ben die graag experimenteert en zichzelf ontwikkeld.</p>
                     </article>
 
                 </section>
