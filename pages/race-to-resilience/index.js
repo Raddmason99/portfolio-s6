@@ -306,6 +306,7 @@ const First_page = () => {
                             <div className="conclusie_box">
                                 <h3>Conclusie Heuristische analyse - Wikihow</h3>
                                 <p>Uit de heuristische analyse kan geconcludeerd worden dat het ontwikkelen van een gebruiksvriendelijke web formulier voor het plaatsen van een oplossing nog enorm ingewikkeld kan zijn. Goede uitleg en begeleiding van de gebruiker is genoodzaakt. Dit kan bereikt worden door informatie inclusief uitleg per onderdeel toe te voegen en directe feedback te geven aan de gebruiker.</p>
+                                <br />
                                 <p>Denk hierbij aan eventueel een vraagteken met uitleg per onderdeel en een auto-correctie binnen de tekst editor.</p>
                             </div>
                         }
@@ -314,7 +315,9 @@ const First_page = () => {
                             <div className="conclusie_box">
                                 <h3>Conclusie Userflow analyse - Op een kennisplatform posten</h3>
                                 <p>Uit de analyse van Twitter kan opgemaakt worden dat gebruikers doormiddel ten alle tijden wordt gemotiveerd om iets te plaatsen op het platform. Dit wordt bereikt door het plaatsen van visuele motivatie in de vorm van een grote blauwe “Tweeten” knop.</p>
+                                <br />
                                 <p>Op de Wikihow pagina zijn veel stappen vereist om een handleiding (wiki how) te kunnen plaatsen. Dit wordt o.a. gedaan om dubbele handleidingen te voorkomen en daarmee een overspoeling van handleidingen met het zelfde of vergelijkbare onderwerpen tegen te gaan.</p>
+                                <br />
                                 <p>Verder valt op dat ze een betrouwbare indruk willen achterlaten. Dit wordt mede bereikt door duplicatie te voorkomen en door academische en expert handleidingen te onderscheiden. Daarnaast promoot het actief een artikel over hoe gebruikers zich kunnen weren tegen misinformatie.</p>
                             </div>
                         }
