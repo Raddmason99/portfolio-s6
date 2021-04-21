@@ -3,11 +3,32 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 //import styling
-import sec_style from '../../styles/Second.module.scss'
-import err_style from '../../styles/Error.module.scss'
+import wrd_style from '../../styles/Woorden.module.scss'
+
+//import static data
+const results = require('../../data/woordenlijst.json')
+
+//fetch props (from static data)
+export const getStaticProps = async () => {
+
+    //create array from results
+    let woorden = Array.from(results.results)
+    //sort on alphabetic order
+    woorden.sort(function (a, b) {
+        if (a.woord < b.woord) { return -1 }
+        if (a.woord > b.woord) { return 1 }
+        return 0
+    })
+
+    return {
+        props: {
+            woordenlijst: woorden
+        }
+    }
+}
 
 //construct return page-elements
-const vw_page = () => {
+const woordenlijst_page = ({ woordenlijst }) => {
     return (
         <>
             <Head>
@@ -15,21 +36,31 @@ const vw_page = () => {
             </Head>
             <main className="body_container">
 
+                <section>
+                    <h2>Verklardende woordenlijst</h2>
 
-                <div className={err_style.error_container}>
-                    <img className={err_style.error_image}
-                        src='/illustrations/undraw_Notify_re_65on.svg'
-                    />
-                    <div className={err_style.error_text}>
-                        <h2>Wow! Hier valt nog niks te zien!</h2>
-                        <p>Deze pagina wordt binnenkort gevuld met nogmeer leesvermaak!</p>
+                    <div className={wrd_style.table_container}>
+
                     </div>
-                </div>
+                    <table className={wrd_style.table_box}>
+                        <tr>
+                            <th>Woord</th>
+                            <th>Verklaring</th>
+                        </tr>
 
+                        {woordenlijst.map((item) => (
+                            <tr>
+                                <td>{item.woord}</td>
+                                <td>{item.verklaring}</td>
+                            </tr>
+                        ))}
+
+                    </table>
+                </section>
 
             </main>
         </>
     );
 }
 //export page-elements
-export default vw_page;
+export default woordenlijst_page;

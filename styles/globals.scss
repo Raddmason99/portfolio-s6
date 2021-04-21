@@ -43,7 +43,7 @@ h3, h4, h5, h6 {
 }
 
 // Text Font
-a, p, li, span, label, input {
+a, p, li, span, label, input, table {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   color: $black;
@@ -54,6 +54,7 @@ u {
   color: $green_03;
   cursor: pointer;
 }
+
 
 
 
