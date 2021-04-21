@@ -1,0 +1,72 @@
+{
+    "woorden": [
+        {
+            "woord": "high-fidelity",
+            "verklaring": "Verder uitgewerkt prototypen met functionaliteiten"
+        },
+        {
+            "woord": "low-fidelity",
+            "verklaring": "Simpel klikbaar prototypen, uitgewerkt in zijn basis"
+        },
+        {
+            "woord": "mobile-first",
+            "verklaring": "Ontwerpen of schetsen met eerst oog voor mobiel gebruik"
+        },
+        {
+            "woord": "MoSCoW",
+            "verklaring": "Methode van prioriteiten stellen"
+        },
+        {
+            "woord": "Minimun viable product (MPV)",
+            "verklaring": "Eerst versie van een product dat functioneel en uitrolbaar is"
+        },
+        {
+            "woord": "Native Applicatie",
+            "verklaring": "Een applicatie ontwikkeld voor een specifiek platform of besturingssysteem (in dit geval voor Android of iOS)"
+        },
+        {
+            "woord": "DOT-framework",
+            "verklaring": "Een toolkit van ict gerelateerde onderzoeksmethoden"
+        },
+        {
+            "woord": "Brainstorm 101",
+            "verklaring": "Methode om verschillende ideeen te genereren binnen een afgesproken tijd"
+        },
+        {
+            "woord": "Usability-test",
+            "verklaring": "Engels synoniem voor gebruikersonderzoek"
+        },
+        {
+            "woord": "Heatmaps",
+            "verklaring": "Toont de meetresultaten van de delen van het scherm waarop geklikt is"
+        },
+        {
+            "woord": "GitLab",
+            "verklaring": "Versiebeheer locatie waar (doormiddel van repositories) broncode kan worden gemanaged voor een project"
+        },
+        {
+            "woord": "Repo / Repository",
+            "verklaring": "Een centrale plaats waarop de broncode kan worden opgeslagen"
+        },
+        {
+            "woord": "merge-requests",
+            "verklaring": "Een verzoek om de code samen te voegen en nieuwe functionaliteten of verbeteringen te implimenteren"
+        },
+        {
+            "woord": "merge-conflicts",
+            "verklaring": "Een conflict in het samenvoegen van de code."
+        },
+        {
+            "woord": "Maintainers",
+            "verklaring": "Een role binnen de repository, die bevoegdheid heeft om merge-requests goed of af te keuren"
+        },
+        {
+            "woord": "framework",
+            "verklaring": "Een set van regels en of instrumenten die samen een kader vormen waarbinnen verschillende functies uitgevoerd worden. Als het ware de bouwstenen voor het schrijven van code"
+        },
+        {
+            "woord": "sitemap",
+            "verklaring": "Vereenvoudigde (vaak) visuele weergave van de structuur een website"
+        }
+    ]
+}

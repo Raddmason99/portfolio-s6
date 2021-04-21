@@ -90,17 +90,23 @@
         align-items: center;
         margin: auto;
         width: 70vw;
-    
-
+        height: 40px;
     }
     
     .nav_block p {
-        margin: 10px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        margin: 0 10px 0 10px;
         cursor: pointer;
     }
     
     .nav_block p:hover {
-        box-shadow: 0px 5px 6px -4px $gray_05;
+        border-bottom: solid 2px $green_03;
+    }
+
+    .nav_block_selected {
+        border-bottom: solid 2px $gray_04;
     }
 
 
@@ -150,6 +156,7 @@
     width: 100%;
     margin: auto;
     padding: 30px 0 30px 0;
+    box-shadow: 0px 3px 4px -2px $gray_05;
 }
 
 .inbetween01_box {
@@ -254,6 +261,10 @@ display: block;
     max-height: 370px;
     height: auto;
     margin: auto 20px auto 20px;
+}
+
+.research_button_box {
+    position: absolute;
 }
 
 .conclusion_research_01 {

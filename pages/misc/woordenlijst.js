@@ -11,7 +11,7 @@ const vw_page = () => {
     return (
         <>
             <Head>
-                <title></title>
+                <title>Portfolio | Woordenlijst</title>
             </Head>
             <main className="body_container">
 

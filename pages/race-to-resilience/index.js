@@ -1,15 +1,21 @@
 //import NextJS dependencies
 import Head from 'next/head'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 //import other dependencies
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 //import styling
 import frst_style from '../../styles/First.module.scss'
 
 //construct return page-elements
 const First_page = () => {
+
+    //setup routing
+    const router = useRouter()
+    const routePath = router.asPath.split('#')[1]
+    console.log(routePath)
 
     //setup the dropbox modal
     const [showQuestions, toggleQuestions] = useState(false);
@@ -26,14 +32,13 @@ const First_page = () => {
 
                 <div className={frst_style.nav_container}>
                     <nav className={frst_style.nav_block}>
-                        <Link href="#inleiding"><p>Inleiding</p></Link>
-                        <Link href="#proces"><p>Proces</p></Link>
-                        <Link href="#product"><p>Product</p></Link>
-                        <Link href="#conclusie"><p>Conclusie</p></Link>
-                        <Link href="#reflectie"><p>Reflectie</p></Link>
+                        <Link href="#inleiding"><p className={(routePath == 'inleiding') ? frst_style.nav_block_selected : null}>Inleiding</p></Link>
+                        <Link href="#proces"><p className={(routePath == 'proces') ? frst_style.nav_block_selected : null}>Proces</p></Link>
+                        <Link href="#product"><p className={(routePath == 'product') ? frst_style.nav_block_selected : null}>Product</p></Link>
+                        <Link href="#conclusie"><p className={(routePath == 'conclusie') ? frst_style.nav_block_selected : null}>Conclusie</p></Link>
+                        <Link href="#reflectie"><p className={(routePath == 'reflectie') ? frst_style.nav_block_selected : null}>Reflectie</p></Link>
                     </nav>
                 </div>
-
 
 
                 <section className={frst_style.intro_container}>
@@ -106,6 +111,7 @@ const First_page = () => {
 
 
 
+
                 <section className={frst_style.inbetween01_container}>
                     <div className={frst_style.inbetween01_box}>
                         <a className={frst_style.inbetween_button01}
@@ -140,6 +146,7 @@ const First_page = () => {
                         </p>
                     </article>
                 </section>
+
 
                 <section id="orientatie">
                     <article>
@@ -195,15 +202,17 @@ const First_page = () => {
                                     <br />
                                     Voor het doen van literatuur onderzoek naar kennisplatforms is er eerst een <Link href="/documents/"><u>onderzoek-opzet</u></Link> gemaakt. Hierin is de onderzoeksmethode en uitvoering beschreven. Het onderzoek naar kennisplatforms wordt verdeeld in meerdere kleinere vragen, waarin er eerst breed gekeken wordt naar het bovenliggende onderwerp (digitale platformen) en er vervolgens via een trechter wordt gekeken naar de specifieke kenmerken van een kennisplatform.
                                 </p>
-
-                                <a className={frst_style.inbetween_button01}
-                                    href="/documents/Onderzoeksopzet.pdf"
-                                    target="_blank">
-                                    Onderzoek opzet
-                                </a>
+                                <div className={frst_style.research_button_box}>
+                                    <a className={frst_style.inbetween_button01}
+                                        href="/documents/Onderzoeksopzet.pdf"
+                                        target="_blank">
+                                        Onderzoek opzet
+                                    </a>
+                                </div>
                             </div>
                             <img src="/illustrations/undraw_Process_re_gws7.svg" />
                         </div>
+                        <br />
                         <p>
                             In mijn onderzoek naar <Link href="/documents/"><u>kennisplatformen</u></Link> is er gekeken digitale platformen en kennisplatformen. Hierbij is er gekeken naar de definitie, soorten en voorbeelden van digitale platformen en de verschillende onderdelen hiervan. Vervolgens is er vanuit de digitale platformen ingezoomd op kennisplatformen, waarbij er gekeken is naar de definitie en kenmerken.
                         </p>
@@ -354,16 +363,19 @@ const First_page = () => {
                                     <br />
                                     Om de gezamenlijke brainstorm 101 sessie in goede banen te lijden, is er een <Link href="/documents/"><u>brainstorm opzet</u></Link> gemaakt. Hierin staat het concept voor de brainstorm, de methodes, tools, rolverdeling, planning en het resultaat beschreven.
                                 </p>
-
-                                <a className={frst_style.inbetween_button01}
-                                    href="/documents/Brainstorm_opzet.pdf"
-                                    target="_blank">
-                                    Brainstorm opzet
+                                <div className={frst_style.research_button_box}>
+                                    <a className={frst_style.inbetween_button01}
+                                        href="/documents/Brainstorm_opzet.pdf"
+                                        target="_blank">
+                                        Brainstorm opzet
                                 </a>
+                                </div>
                             </div>
                         </div>
                         <br />
+                        <br />
                         <p>
+                            <br />
                             Met de features voor de website beschreven uit de brainstorm is er een <Link href="/documents"><u>sitemap</u></Link> opgemaakt. Hierin staan alle verschillende pagina’s voor de website. Dit maakt duidelijke welke pagina’s er zijn, welke er dus ontworpen moeten worden en opgezet dienen te worden voor de development omgeving.
                         </p>
                         <p>

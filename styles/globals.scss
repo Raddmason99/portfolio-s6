@@ -1,6 +1,10 @@
 //import colour variables
 @import "variables";
 
+html {
+  scroll-behavior: smooth;
+}
+
 //main body
 body {
   height: 100%;
