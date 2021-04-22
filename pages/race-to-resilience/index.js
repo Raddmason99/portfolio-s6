@@ -518,11 +518,8 @@ const First_page = () => {
                         <h3>Prototype</h3>
                         <p>Het belangrijkste opgeleverde product is het prototype. Hierin komen verschillende expertises in terug. Binnen dit product ben ik voornamelijk bezig geweest met het opzetten van de development omgeving: Git en de volledige layout, de “write-a-solution” pagina’s en de git documentatie (Wiki). Dit alles heeft gezorgd voor de front-end en een minimaal functionerend prototype van het kennisplatform voor de Race to Resilience Challenge.</p>
 
-
                         <ModalBox>
-
                             <button>Demo Video</button>
-
                             <div className={frst_style.prototype_container}>
                                 <ReactPlayer
                                     className={frst_style.prototype_box}
@@ -542,10 +539,7 @@ const First_page = () => {
                                     <p>Deze video geeft een demonstratie van het werkende en opgeleverde prototype.</p>
                                 </div>
                             </div>
-
                         </ModalBox>
-
-
 
                         <h3>Onderzoeken</h3>
                         <p>Tijdens het project zijn er verschillende onderzoeken uitgevoerd om tot het huidige product te komen. Denk daarbij aan het onderzoek naar de deelvragen, waaronder digitale platformen en kwaliteiten van een mobiele. Deze zijn gebundeld in het hoofd onderzoekdocument.</p>

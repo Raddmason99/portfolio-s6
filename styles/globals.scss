@@ -70,6 +70,19 @@ u {
 
 section {
   width: 50vw;
+
+  @include media( "retina" ){
+    width: 60vw;
+  };
+  @include media( "screen", ">bp1Width", "<maxWidth" ){
+    width: 70vw;
+  };
+  @include media( "screen", ">minWidth", "<bp1Width" ){
+    width: 80vw;
+  };
+  @include media( "screen", "<minWidth" ){
+    width: 90vw;
+  };
 }
 
 .vragen_box {
@@ -107,4 +120,3 @@ section {
   text-decoration: underline;
   cursor: pointer;
 }
-

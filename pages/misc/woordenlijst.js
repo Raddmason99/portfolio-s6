@@ -37,7 +37,7 @@ const woordenlijst_page = ({ woordenlijst }) => {
             <main className="body_container">
 
                 <section>
-                    <h2>Verklardende woordenlijst</h2>
+                    <h2>Verklarende woordenlijst</h2>
 
                     <div className={wrd_style.table_container}>
 

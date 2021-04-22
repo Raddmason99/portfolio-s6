@@ -36,3 +36,41 @@ $pink_02: #EA4492;
 //colour pallet - illustrations
 $latteblue: #3f3d56;
 $skincolor: #ffb9b9;
+
+
+
+/*  Media Queries for
+    mobile, tablet, smaller screens */
+
+//predefined Break-points
+$mediaMaxWidth: 1260px;
+$mediaBp1Width: 960px;
+$mediaMinWidth: 480px;
+
+@function translate-media-condition($c) {
+  $condMap: (
+		"screen": "only screen",
+		"print": "only print",
+		"retina": "(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.5), (min-resolution: 120dpi)",
+        ">maxWidth": "(min-width: #{$mediaMaxWidth + 1})",
+		"<maxWidth": "(max-width: #{$mediaMaxWidth})", 		
+		">bp1Width": "(min-width: #{$mediaBp1Width + 1})",
+		"<bp1Width": "(max-width: #{$mediaBp1Width})",
+		">minWidth": "(min-width: #{$mediaMinWidth + 1})",
+		"<minWidth": "(max-width: #{$mediaMinWidth})"
+	);
+  @return map-get( $condMap, $c );
+}
+
+// The mdia mixin
+@mixin media($args...) {
+  $query: "";
+  @each $arg in $args {
+    $op: "";
+    @if ( $query != "" ) {
+      $op: " and ";
+    }
+    $query: $query + $op + translate-media-condition($arg);
+  }
+  @media #{$query}  { @content; }
+}
