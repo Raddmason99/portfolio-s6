@@ -21,6 +21,8 @@
     "nprogress": "^0.2.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-modal": "^3.13.1",
+    "react-player": "^2.9.0",
     "sass": "^1.32.8",
     "serverless-mysql": "^1.5.4",
     "swr": "^0.3.9"

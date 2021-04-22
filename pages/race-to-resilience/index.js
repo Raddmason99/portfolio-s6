@@ -5,6 +5,9 @@ import { useRouter } from 'next/router'
 
 //import other dependencies
 import React, { useState } from 'react';
+import ReactPlayer from 'react-player';
+
+import ModalBox from '../../components/Modal'
 
 //import styling
 import frst_style from '../../styles/First.module.scss'
@@ -15,13 +18,15 @@ const First_page = () => {
     //setup routing
     const router = useRouter()
     const routePath = router.asPath.split('#')[1]
-    console.log(routePath)
 
     //setup the dropbox modal
     const [showQuestions, toggleQuestions] = useState(false);
     const [showHeuristic, toggleHeuristic] = useState(false);
     const [showUserflow, toggleUserflow] = useState(false);
     const [showTrends, toggleTrends] = useState(false);
+
+    //video player options
+    const [isPlaying, setIsPlaying] = useState(false);
 
     return (
         <>
@@ -60,7 +65,7 @@ const First_page = () => {
                             De Ecodorp Boekel initiatiefnemers, Ad Vlems en Ronald Hazelzet, hebben een kennisplatform, Global Goals Community, waarop gebruikers oplossingen kunnen bieden die betrekking hebben tot (één van) de 17 ontwikkelingsdoelen van de Verenigde Naties.
                             <br />
                             <br />
-                            Origineel was de opdracht om de huidige Global Goals Community te analyseren en optimaliseren voor mobiel gebruik. Echter startte de Verenigede Naties met een uitdaging aan, de Race to Resilience, waaraan de opdrachtgevers graag wilde deelnemen. Hierdoor werd de opdracht gewijzigd. De nieuwe opdracht vormde zich tot het opzetten van een high-fidelity prototype van een mobiel kennisplatform voor het delen van oplossingen met betrekking tot klimaat verandering.
+                            Origineel was de opdracht om de huidige Global Goals Community te analyseren en optimaliseren voor mobiel gebruik. Echter startte de Verenigede Naties met een uitdaging aan, de Race to Resilience, waaraan de opdrachtgevers graag wilde deelnemen. Hierdoor werd de opdracht gewijzigd. De nieuwe opdracht vormde zich tot het opzetten van een <Link href="/misc/woordenlijst"><span className="underline">high-fidelity</span></Link> prototype van een mobiel kennisplatform voor het delen van oplossingen met betrekking tot klimaat verandering.
                         </p>
                     </article>
 
@@ -68,9 +73,9 @@ const First_page = () => {
                         <h2>De opdracht</h2>
                         <p>Het nieuwe doel van de opdracht is om een kennisplatform te ontwerpen en uit te werken tot, minimaal, een functionerende prototype. Dit kennisplatform maakt dan kans om door de UN gebruikt te worden als hun Race to Resilience tool.</p>
                         <h3>Eisen aan de Opdracht</h3>
-                        <p>Eisen aan de nieuwe opdracht hebben betrekking tot mobile-first en het bieden van een degelijke mobiele gebruikers ervaring. Verder heeft het als doel om de applicatie internationaal aan te bieden, alles dient daarom in het Engels gemaakt te worden.</p>
+                        <p>Eisen aan de nieuwe opdracht hebben betrekking tot <Link href="/misc/woordenlijst"><span className="underline">mobile-first</span></Link> en het bieden van een degelijke mobiele gebruikers ervaring. Verder heeft het als doel om de applicatie internationaal aan te bieden, alles dient daarom in het Engels gemaakt te worden.</p>
                         <h3>MoSCoW</h3>
-                        <p>Om structuur aan het project te geven zijn de oplever-doelen omschreven doormiddel van een MoSCoW methode. Hierin staan de belangrijkste zaken die het minimun viable product (MPV) zou moeten bevatten.</p>
+                        <p>Om structuur aan het project te geven zijn de oplever-doelen omschreven doormiddel van een <Link href="/misc/woordenlijst"><span className="underline">MoSCoW</span></Link> methode. Hierin staan de belangrijkste zaken die het <Link href="/misc/woordenlijst"><span className="underline">minimun viable product (MPV)</span></Link> zou moeten bevatten.</p>
 
                         <div className={frst_style.research_box}>
                             <div className={frst_style.moscow_container}>
@@ -142,7 +147,7 @@ const First_page = () => {
                             Het project is doorlopen in vijf verschillende fases: orientatiefase, onderzoekfase, conceptfase, testfase en prototypefase. Deze fases zijn onder te verdelen in drie processen: analyseproces, realisatieproces en het meetproces.
                             <br />
                             <br />
-                            Tijdens het project is het DOT-framework gehanteerd, meer informatie over dit framework is te vinden op de <Link href="https://ictresearchmethods.nl/The_DOT_Framework"><u>website</u></Link> van ictresearchmethods wiki.
+                            Tijdens het project is het <Link href="/misc/woordenlijst"><span className="underline">DOT-framework</span></Link> gehanteerd, meer informatie over dit framework is te vinden op de <Link href="https://ictresearchmethods.nl/The_DOT_Framework"><u>website</u></Link> van ictresearchmethods wiki.
                         </p>
                     </article>
                 </section>
@@ -154,7 +159,7 @@ const First_page = () => {
                             <h3>Oriëntatiefase</h3>
                             <img src="/dot_framework/100px-Logo-library.png" />
                         </div>
-                        <p>Tijdens de oriëntatiefase is er verdieping gezocht in de opdracht. Een kennisplatform maken met betrekking tot oplossingen voor de klimaat verandering. Om meer inzicht te krijgen in de opdracht is er een <Link href="/documents/"><u>individuele opdracht analyse</u></Link> gemaakt. Aan de hand van deze analyse is er een hoofdvraag en zijn er deelvragen opgesteld. </p>
+                        <p>Tijdens de oriëntatiefase is er verdieping gezocht in de opdracht. Een kennisplatform maken met betrekking tot oplossingen voor de klimaat verandering. Om meer inzicht te krijgen in de opdracht is er een <Link href="/documents/Individuele_Analyse_Opdracht.pdf"><u>individuele opdracht analyse</u></Link> gemaakt. Aan de hand van deze analyse is er een hoofdvraag en zijn er deelvragen opgesteld.</p>
                     </article>
                 </section>
 
@@ -200,7 +205,7 @@ const First_page = () => {
                                     In de onderzoekfase is er onderzoek gedaan naar de opgestelde deelvragen, doormiddel van literatuuronderzoek. Mijn onderzoeken hadden betrekking tot deelvragen 1 (wat houdt een kennisplatform in?) en 4 (hoe vertaal je het concept naar een mobiele interface?).
                                     <br />
                                     <br />
-                                    Voor het doen van literatuur onderzoek naar kennisplatforms is er eerst een <Link href="/documents/"><u>onderzoek-opzet</u></Link> gemaakt. Hierin is de onderzoeksmethode en uitvoering beschreven. Het onderzoek naar kennisplatforms wordt verdeeld in meerdere kleinere vragen, waarin er eerst breed gekeken wordt naar het bovenliggende onderwerp (digitale platformen) en er vervolgens via een trechter wordt gekeken naar de specifieke kenmerken van een kennisplatform.
+                                    Voor het doen van literatuur onderzoek naar kennisplatforms is er eerst een <Link href="/documents/Onderzoeksopzet.pdf"><u>onderzoek-opzet</u></Link> gemaakt. Hierin is de onderzoeksmethode en uitvoering beschreven. Het onderzoek naar kennisplatforms wordt verdeeld in meerdere kleinere vragen, waarin er eerst breed gekeken wordt naar het bovenliggende onderwerp (digitale platformen) en er vervolgens via een trechter wordt gekeken naar de specifieke kenmerken van een kennisplatform.
                                 </p>
                                 <div className={frst_style.research_button_box}>
                                     <a className={frst_style.inbetween_button01}
@@ -214,7 +219,7 @@ const First_page = () => {
                         </div>
                         <br />
                         <p>
-                            In mijn onderzoek naar <Link href="/documents/"><u>kennisplatformen</u></Link> is er gekeken digitale platformen en kennisplatformen. Hierbij is er gekeken naar de definitie, soorten en voorbeelden van digitale platformen en de verschillende onderdelen hiervan. Vervolgens is er vanuit de digitale platformen ingezoomd op kennisplatformen, waarbij er gekeken is naar de definitie en kenmerken.
+                            In mijn onderzoek naar <Link href="/documents/Digitale_platformen.pdf"><u>kennisplatformen</u></Link> is er gekeken digitale platformen en kennisplatformen. Hierbij is er gekeken naar de definitie, soorten en voorbeelden van digitale platformen en de verschillende onderdelen hiervan. Vervolgens is er vanuit de digitale platformen ingezoomd op kennisplatformen, waarbij er gekeken is naar de definitie en kenmerken.
                         </p>
                         <div className={frst_style.conclusion_research_01}>
                             <div className={frst_style.conclusion_research_01_title}>
@@ -232,7 +237,7 @@ const First_page = () => {
                             </p>
                         </div>
                         <p>
-                            Tijdens het uitvoeren van mijn tweede literatuuronderzoek naar <Link href="/document"><u>kwaliteiten van een mobiele interface</u></Link> is onderzocht wat de design principes van een mobiele interface zijn.
+                            Tijdens het uitvoeren van mijn tweede literatuuronderzoek naar <Link href="/documents/Kwaliteiten_Mobiel_Interface"><u>kwaliteiten van een mobiele interface</u></Link> is onderzocht wat de design principes van een mobiele interface zijn.
                         </p>
                         <div className={frst_style.conclusion_research_01}>
                             <div className={frst_style.conclusion_research_01_title}>
@@ -250,7 +255,7 @@ const First_page = () => {
                             </p>
                         </div>
                         <p>
-                            Mijn uitgevoerde literatuuronderzoeken en de andere onderzoeken met betrekking tot de deelvragen zijn samengevoegd in het een <Link href="/documents/"><u>hoofd onderzoeks document</u></Link>. Hierin staan ook de onderzoeken naar deelvragen van andere project-leden.
+                            Mijn uitgevoerde literatuuronderzoeken en de andere onderzoeken met betrekking tot de deelvragen zijn samengevoegd in het een <Link href="/documents/Hoofd_onderzoek_document.pdf"><u>hoofd onderzoeks document</u></Link>. Hierin staan ook de onderzoeken naar deelvragen van andere project-leden.
                         </p>
                         <div className={frst_style.research_file_box}>
                             <a className={frst_style.inbetween_button01}
@@ -291,7 +296,7 @@ const First_page = () => {
                                     <h3>Userflow analyse</h3>
                                     <img src="/illustrations/undraw_design_notes_8dmv.svg" />
                                     <a className={frst_style.inbetween_button03}
-                                        href="/documents/Userflow_Analyse _Kennis_platform_posten.pdf"
+                                        href="/documents/Userflow_Analyse_Kennis_platform_posten.pdf"
                                         target="_blank">
                                         Userflow analyse
                                     </a>
@@ -358,10 +363,10 @@ const First_page = () => {
                             <img src="/illustrations/undraw_Scrum_board_re_wk7v.svg" />
                             <div>
                                 <p>
-                                    Het onderzoek naar de kwaliteiten van een mobiele interface toont de relevantie aan van het uitplannen van de verschillende pagina’s voor het ontwerpen. Om een goed beeld te krijgen van wat er ontworpen dient te worden zijn er twee acties ondernomen. Er is een gezamenlijke brainstorm 101 sessie gehouden over de features van de website en er is een sitemap opgezet, met daarin alle pagina’s voor het ontwerp.
+                                    Het onderzoek naar de kwaliteiten van een mobiele interface toont de relevantie aan van het uitplannen van de verschillende pagina’s voor het ontwerpen. Om een goed beeld te krijgen van wat er ontworpen dient te worden zijn er twee acties ondernomen. Er is een gezamenlijke <Link href="/misc/woordenlijst"><span className="underline">brainstorm 101</span></Link> sessie gehouden over de features van de website en er is een <Link href="/misc/woordenlijst"><span className="underline">sitemap</span></Link> opgezet, met daarin alle pagina’s voor het ontwerp.
                                     <br />
                                     <br />
-                                    Om de gezamenlijke brainstorm 101 sessie in goede banen te lijden, is er een <Link href="/documents/"><u>brainstorm opzet</u></Link> gemaakt. Hierin staat het concept voor de brainstorm, de methodes, tools, rolverdeling, planning en het resultaat beschreven.
+                                    Om de gezamenlijke <Link href="/misc/woordenlijst"><span className="underline">brainstorm 101</span></Link> sessie in goede banen te lijden, is er een <Link href="/documents/Brainstorm_opzet.pdf"><u>brainstorm opzet</u></Link> gemaakt. Hierin staat het concept voor de brainstorm, de methodes, tools, rolverdeling, planning en het resultaat beschreven.
                                 </p>
                                 <div className={frst_style.research_button_box}>
                                     <a className={frst_style.inbetween_button01}
@@ -376,13 +381,13 @@ const First_page = () => {
                         <br />
                         <p>
                             <br />
-                            Met de features voor de website beschreven uit de brainstorm is er een <Link href="/documents"><u>sitemap</u></Link> opgemaakt. Hierin staan alle verschillende pagina’s voor de website. Dit maakt duidelijke welke pagina’s er zijn, welke er dus ontworpen moeten worden en opgezet dienen te worden voor de development omgeving.
+                            Met de features voor de website beschreven uit de brainstorm is er een <Link href="/documents/Race_to_Resillience_Sitemap.png"><u>sitemap</u></Link> opgemaakt. Hierin staan alle verschillende pagina’s voor de website. Dit maakt duidelijke welke pagina’s er zijn, welke er dus ontworpen moeten worden en opgezet dienen te worden voor de development omgeving.
                         </p>
                         <p>
                             Tijdens de conceptfase is er gekozen voor een creatief vrije manier van werken. De verschillende pagina’s werden verdeeld onder de project-leden en zonder verdere voorwaarden heeft iedereen de kans gekregen om een eerste ontwerp schets te maken. Mijn ontwerpen hebben betrekking tot het aanmaken van een nieuwe klimaat oplossing: “Write a Solution”.
                         </p>
                         <p>
-                            Na overleg zijn de positieve punten van alle designs gebundeld op <Link href="/documents/"><u>Google Jamboard</u></Link> en zijn er iteraties gegaan over het ontwerp. Er is tevens door een van de project-leden een <Link href="/documents/"><u>style-guide</u></Link> opgezet om bij te dragen aan een uniform ontwerp.
+                            Na overleg zijn de positieve punten van alle designs gebundeld op <Link href="/documents/Prototype_Schets samenvoeging.pdf"><u>Google Jamboard</u></Link> en zijn er iteraties gegaan over het ontwerp. Er is tevens door een van de project-leden een <Link href="/documents/BrandGuide_GGC.pdf"><u>style-guide</u></Link> (Maximilian) opgezet om bij te dragen aan een uniform ontwerp.
                         </p>
                         <p>
                             Verschillende iteraties van ontwerpen zijn uitgewerkt en getoond aan de opdrachtgevers. Mijn feedback betrof het toevoegen van een mogelijkheid om de impact van een oplossing toe te kunnen voegen.
@@ -411,7 +416,7 @@ const First_page = () => {
                             <img src="/dot_framework/100px-Logo-lab.png" />
                         </div>
                         <p>
-                            In de testfase is er gebruikersonderzoek gedaan naar mijn ontworpen pagina’s, “Write a Solution”. Het doel is om erachter te komen of gebruikers zich kunnen navigeren door het formulier. Voor de gebruikerstest is er een <Link href="/documents/"><u>onderzoeksplan</u></Link> opgesteld, waarin de doelen, onderzoeksvragen en -methoden worden vastgesteld.
+                            In de testfase is er gebruikersonderzoek gedaan naar mijn ontworpen pagina’s, “Write a Solution”. Het doel is om erachter te komen of gebruikers zich kunnen navigeren door het formulier. Voor de gebruikerstest is er een <Link href="/documents/Usability_Test_Write_a_Solution.pdf"><u>onderzoeksplan</u></Link> opgesteld, waarin de doelen, onderzoeksvragen en -methoden worden vastgesteld.
                         </p>
                         <div className={frst_style.research_file_box}>
                             <a className={frst_style.inbetween_button01}
@@ -431,7 +436,7 @@ const First_page = () => {
                             </a>
                         </div>
                         <p>
-                            Het gebruikersonderzoek is afgenomen doormiddel van een online tool, genaamd Maze. Dit is een online usability-test tool, waarin gebruikers digitaal een test kunnen afnemen. Ze kunnen hierin vragen blokken beantwoorden en clickable prototypen uitproberen.
+                            Het gebruikersonderzoek is afgenomen doormiddel van een online tool, genaamd Maze. Dit is een online <Link href="/misc/woordenlijst"><span className="underline">usability-test</span></Link> tool, waarin gebruikers digitaal een test kunnen afnemen. Ze kunnen hierin vragen blokken beantwoorden en clickable prototypen uitproberen.
                             <br />
                         </p>
 
@@ -441,7 +446,7 @@ const First_page = () => {
                                 <p>LAB - Usability Testing</p>
                             </div>
                             <p>
-                                Uit de “Heatmaps” van de drie missies valt op te merken dat het ontwerp correct geïnterpreteerd wordt. Binnen drie “Clicks” weet zeker tachtig procent van de gebruikers het doel te bereiken. Enkele problemen en vragen betrekken zich tot het clickable prototype dat gebruikt is voor de usability test, waarin gebruikers bijvoorbeeld niet op alle categorieën konden klikken en teksten bij een klik op de knop ingevuld werden.
+                                Uit de <Link href="/misc/woordenlijst"><span className="underline">Heatmaps</span></Link> van de drie missies valt op te merken dat het ontwerp correct geïnterpreteerd wordt. Binnen drie “Clicks” weet zeker tachtig procent van de gebruikers het doel te bereiken. Enkele problemen en vragen betrekken zich tot het clickable prototype dat gebruikt is voor de usability test, waarin gebruikers bijvoorbeeld niet op alle categorieën konden klikken en teksten bij een klik op de knop ingevuld werden.
                                 <br />
                                 <br />
                                 Vier gebruikers gaven aan dat de informatie binnen het formulier hen niet verder heeft geholpen. Hier dient extra aandacht aan besteed te worden. De teksten kunnen verbeterd worden en eventueel kan er een illustratie of kleine animatie toegevoegd worden, die bijdraagt aan het verduidelijken van de opdracht. Ook zou een uitleg pagina, met eventueel een uitleg video, een toevoeging zijn aan de documentatie voor de gebruiker.
@@ -464,7 +469,7 @@ const First_page = () => {
                         </div>
                         <p>De prototypefase was een leerzame fase. Er is, in overleg met de project-groep, gekozen om gebruik te maken van het NextJS framework. De mogelijkheden van server-side rendering en het genereren van statische webpaginas zijn krachtige tools om een kennis-platform schaalbaar maken zonder veel performance verlies.</p>
                         <p className="quote">“NextJS is een open-source React front-end framework met functionaliteiten als server-side rendering en het genereren van statische webpaginas.”</p>
-                        <p>In samenwerking met Leo hebben we de FHICT GitLab pagina opgezet en de project leden toegevoegd. Wij zijn daarbij de “Maintainers” en regelen de merge-requests, dit om merge-conflicts te voorkomen.</p>
+                        <p>In samenwerking met Leo hebben we de FHICT <Link href="/misc/woordenlijst"><span className="underline">GitLab</span></Link> pagina opgezet en de project leden toegevoegd. Wij zijn daarbij de <Link href="/misc/woordenlijst"><span className="underline">maintainers</span></Link> en regelen de <Link href="/misc/woordenlijst"><span className="underline">merge-requests</span></Link>, dit om <Link href="/misc/woordenlijst"><span className="underline">merge-conflicts</span></Link> te voorkomen.</p>
 
                         <div className={frst_style.research_box}>
                             <div>
@@ -513,11 +518,40 @@ const First_page = () => {
                         <h3>Prototype</h3>
                         <p>Het belangrijkste opgeleverde product is het prototype. Hierin komen verschillende expertises in terug. Binnen dit product ben ik voornamelijk bezig geweest met het opzetten van de development omgeving: Git en de volledige layout, de “write-a-solution” pagina’s en de git documentatie (Wiki). Dit alles heeft gezorgd voor de front-end en een minimaal functionerend prototype van het kennisplatform voor de Race to Resilience Challenge.</p>
 
+
+                        <ModalBox>
+
+                            <button>Demo Video</button>
+
+                            <div className={frst_style.prototype_container}>
+                                <ReactPlayer
+                                    className={frst_style.prototype_box}
+                                    url='/demo/Front_end_Demo_-_Race_to_Resilience_-_New_Identity_Fontys.mp4'
+                                    playing={isPlaying}
+                                    controls
+                                    config={{
+                                        file: {
+                                            attributes: {
+                                                controlsList: "nodownload"
+                                            }
+                                        }
+                                    }}
+                                />
+                                <div>
+                                    <h3>Demo Video</h3>
+                                    <p>Deze video geeft een demonstratie van het werkende en opgeleverde prototype.</p>
+                                </div>
+                            </div>
+
+                        </ModalBox>
+
+
+
                         <h3>Onderzoeken</h3>
                         <p>Tijdens het project zijn er verschillende onderzoeken uitgevoerd om tot het huidige product te komen. Denk daarbij aan het onderzoek naar de deelvragen, waaronder digitale platformen en kwaliteiten van een mobiele. Deze zijn gebundeld in het hoofd onderzoekdocument.</p>
 
                         <h3>Overdracht</h3>
-                        <p>Om het prototype goed over te dragen aan een potentieel nieuwe groep, is er gezorgd voor goede en duidelijke overdracht documentatie. Er is een bestand opgemaakt met daarin informatie over de bestanden, opleveringen, adviezen en wat er nog gedaan moet worden. Om de overdracht van het prototype en de daarbij horende code te verbeteren is er door mij een Wiki aangemaakt op de GitLab repo. Hierin staat het gehele proces, inclusief documenten gelinkt, de verschillende ontwikkelingen en wat er nog gedaan moet en kan worden (beschreven per pagina). Ik hoop hiermee de (eventueel) volgende groep van voldoende informatie te hebben voorzien.</p>
+                        <p>Om het prototype goed over te dragen aan een potentieel nieuwe groep, is er gezorgd voor goede en duidelijke overdracht documentatie. Er is een bestand opgemaakt met daarin informatie over de bestanden, opleveringen, adviezen en wat er nog gedaan moet worden. Om de overdracht van het prototype en de daarbij horende code te verbeteren is er door mij een Wiki aangemaakt op de <Link href="/misc/woordenlijst"><span className="underline">GitLab</span></Link> <Link href="/misc/woordenlijst"><span className="underline">repo</span></Link>. Hierin staat het gehele proces, inclusief documenten gelinkt, de verschillende ontwikkelingen en wat er nog gedaan moet en kan worden (beschreven per pagina). Ik hoop hiermee de (eventueel) volgende groep van voldoende informatie te hebben voorzien.</p>
 
                     </article>
 
@@ -535,7 +569,7 @@ const First_page = () => {
                             In het <b>analyseproces</b> is er georiënteerd naar de opdracht, zijn er literatuuronderzoeken gedaan naar de deelvragen, is er UX onderzoek gedaan naar huidige platformen en is er een analyse gemaakt van de mobiele trends.
                             <br />
                             <br />
-                            In het <b>realisatieproces</b> is er gebrainstormd en zijn er schetsen gemaakt. Bij de development is er gebruik gemaakt van het NextJS framework om een low-fidelity prototype te realiseren waarin enkele van de benodigde back-end functionaliteiten al werkzaam zijn.
+                            In het <b>realisatieproces</b> is er gebrainstormd en zijn er schetsen gemaakt. Bij de development is er gebruik gemaakt van het NextJS framework om een <Link href="/misc/woordenlijst"><span className="underline">low-fidelity</span></Link> prototype te realiseren waarin enkele van de benodigde back-end functionaliteiten al werkzaam zijn.
                             <br />
                             <br />
                             In het <b>meetproces</b> is er gekeken naar het ontwerp en de functionaliteiten van de “Write a solution” pagina’s doormiddel van een online gebruikersonderzoek. De resultaten hieruit zijn positief, zijn verder geanalyseerd en vormen een advies in de overdracht.

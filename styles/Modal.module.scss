@@ -1,0 +1,87 @@
+//import colour variables
+@import "variables";
+
+.container {
+    display: block;
+    margin: 20px 0 30px 0
+}
+
+.OpenButton {
+    border-style: none;
+    text-decoration: none;
+    text-align: center;
+    color: $white;
+    background-color: $green_04;
+    width: fit-content;
+
+    padding: 8px 30px 8px 30px;
+    margin: 10px 10px 10px 10px;
+
+    border-radius: 25px;
+}
+.OpenButton:hover {
+    background-color: $green_03;
+    cursor: pointer;
+}
+
+.times {
+    position: absolute;
+    z-index: 100;
+    top: 100px;
+    right: 100px;
+    color: $black;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.overlay {
+    position: fixed;
+    overflow-y: hidden;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    z-index: 2;
+    display: block;
+
+
+    position: absolute;
+    overflow-y: hidden;
+    overflow: auto;
+    -webkit-overflow-scrolling: 'touch';
+    outline: none;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 100%;
+    width: 100%;
+}
+
+.background {
+    position: absolute;
+    opacity: 0.9;
+    background-color: $gray_02;
+    height: 100%;
+    width: 100%;
+}
+
+.inherit_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    height: 100%;
+    width: 100%;
+}
