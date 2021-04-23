@@ -217,7 +217,7 @@ const First_page = () => {
                             </div>
                             <img src="/illustrations/undraw_Process_re_gws7.svg" />
                         </div>
-                        <br />
+                        <div className={frst_style.spacing}></div>
                         <p>
                             In mijn onderzoek naar <Link href="/documents/Digitale_platformen.pdf"><u>kennisplatformen</u></Link> is er gekeken digitale platformen en kennisplatformen. Hierbij is er gekeken naar de definitie, soorten en voorbeelden van digitale platformen en de verschillende onderdelen hiervan. Vervolgens is er vanuit de digitale platformen ingezoomd op kennisplatformen, waarbij er gekeken is naar de definitie en kenmerken.
                         </p>

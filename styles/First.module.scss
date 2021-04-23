@@ -392,6 +392,7 @@ display: block;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 10px;
 }
 
 .mockup_container p {
@@ -558,6 +559,7 @@ display: block;
     border-radius: 12px;
     width: 250px;
     border-bottom: solid 4px $gray_04;
+    margin: 10px;
 
     @include media( "retina" ){
 
@@ -583,7 +585,7 @@ display: block;
 
 .analysis_boxer {
     display: grid;
-    grid-template-rows: auto 250px auto;
+    grid-template-rows: 40px 200px 60px;
     grid-gap: 5px;
     justify-content: center;
     align-items: center;
@@ -609,6 +611,19 @@ display: block;
     align-items: flex-start;
     justify-content: space-evenly;
     width: 80vw;
+
+    @include media( "retina" ){
+
+    };
+    @include media( "screen", ">bp1Width", "<maxWidth" ){
+
+    };
+    @include media( "screen", ">minWidth", "<bp1Width" ){
+        flex-direction: column;
+    };
+    @include media( "screen", "<minWidth" ){
+        flex-direction: column;
+    };
 }
 
 .prototype_box {
@@ -622,4 +637,22 @@ display: block;
 .prototype_box video {
     max-height: 500px;
     width: auto !important;
+}
+
+.spacing {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    @include media( "retina" ){
+
+    };
+    @include media( "screen", ">bp1Width", "<maxWidth" ){
+
+    };
+    @include media( "screen", ">minWidth", "<bp1Width" ){
+
+    };
+    @include media( "screen", "<minWidth" ){
+        
+    };
 }
