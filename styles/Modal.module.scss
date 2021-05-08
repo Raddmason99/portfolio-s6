@@ -1,6 +1,9 @@
 //import colour variables
 @import "variables";
 
+/*  Modal container with button and
+    section for everything   */
+
 .container {
     display: block;
     margin: 20px 0 30px 0
@@ -84,4 +87,15 @@
 
     height: 100%;
     width: 100%;
+
+    user-select: none; 
+}
+
+
+/*  Modal for images, opens when
+    click on image  */
+
+.image {
+    max-height: 80vh;
+    max-width: 80vw;
 }

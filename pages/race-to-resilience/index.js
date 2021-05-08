@@ -8,6 +8,7 @@ import React, { useState } from 'react';
 import ReactPlayer from 'react-player';
 
 import ModalBox from '../../components/Modal'
+import ImageModalBox from '../../components/ImageModal'
 
 //import styling
 import frst_style from '../../styles/First.module.scss'
@@ -417,7 +418,9 @@ const First_page = () => {
 
                         <div className={frst_style.mockup_container}>
                             <div>
-                                <img className={frst_style.mockup} src="/documents/Design_Mock-up_V1.png" />
+                                <ImageModalBox>
+                                    <img className={frst_style.mockup} src="/documents/Design_Mock-up_V1.png" />
+                                </ImageModalBox>
                                 <p>Eerste iteratie "Write a solution" pagina's</p>
                             </div>
                         </div>
@@ -501,7 +504,9 @@ const First_page = () => {
 
                         <div className={frst_style.mockup_container}>
                             <div>
-                                <img className={frst_style.mockup} src="/documents/Design_Mock-up_V2.png" />
+                                <ImageModalBox>
+                                    <img className={frst_style.mockup} src="/documents/Design_Mock-up_V2.png" />
+                                </ImageModalBox>
                                 <p>Tweede iteratie "Write a solution" pagina's</p>
                             </div>
                         </div>
