@@ -357,7 +357,6 @@ display: block;
     background-color: $green_04;
 }
 
-
 .moscow_title {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -371,7 +370,7 @@ display: block;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 30px 0 30px 0;
+    margin: 10px 0 10px 0;
 
     @include media( "retina" ){
 
@@ -403,6 +402,7 @@ display: block;
 }
 
 .mockup {
+    padding: 10px;
     max-width: 400px;
     max-height: auto;
 
@@ -445,7 +445,7 @@ display: block;
 .research_box img {
     display: block;
     max-width: 350px;
-    max-height: 370px;
+    max-height: 310px;
     height: auto;
     margin: auto 20px auto 20px;
 
@@ -460,8 +460,7 @@ display: block;
         max-width: 100%;
     };
     @include media( "screen", "<minWidth" ){
-        margin: auto;
-        max-width: 100%;
+        display: none;
     };
 }
 
@@ -497,7 +496,7 @@ display: block;
 
 .conclusion_research_01_title p {
     color: $green_02;
-    margin: 5px 0 5px 0;
+    margin: 10px 0 5px 0;
 }
 
 .research_file_box {
@@ -530,7 +529,7 @@ display: block;
 
 .analysis_container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     margin: 20px 0 40px 0;
 
@@ -538,7 +537,6 @@ display: block;
 
     };
     @include media( "screen", ">bp1Width", "<maxWidth" ){
-        grid-template-columns: repeat(2, 1fr);
         margin-bottom: 10px;
     };
     @include media( "screen", ">minWidth", "<bp1Width" ){
@@ -557,7 +555,7 @@ display: block;
     border-radius: 12px;
     width: 250px;
     border-bottom: solid 4px $gray_04;
-    margin: 10px;
+    margin: auto;
 
     @include media( "retina" ){
 
@@ -629,7 +627,7 @@ display: block;
     justify-content: center;
     align-items: center;
     width: unset !important;
-    height: unset !important;
+    height: unset;
 }
 
 .prototype_box video {

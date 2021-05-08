@@ -21,6 +21,10 @@ const First_page = () => {
 
     //setup the dropbox modal
     const [showQuestions, toggleQuestions] = useState(false);
+    const [showPrinciples, togglePrinciples] = useState(false);
+    const [showBrainstorm, toggleBrainstorm] = useState(false);
+    const [showSitemap, toggleSitemap] = useState(false);
+    const [showPositives, togglePositives] = useState(false);
     const [showHeuristic, toggleHeuristic] = useState(false);
     const [showUserflow, toggleUserflow] = useState(false);
     const [showTrends, toggleTrends] = useState(false);
@@ -65,53 +69,57 @@ const First_page = () => {
                             De Ecodorp Boekel initiatiefnemers, Ad Vlems en Ronald Hazelzet, hebben een kennisplatform, Global Goals Community, waarop gebruikers oplossingen kunnen bieden die betrekking hebben tot (één van) de 17 ontwikkelingsdoelen van de Verenigde Naties.
                             <br />
                             <br />
-                            Origineel was de opdracht om de huidige Global Goals Community te analyseren en optimaliseren voor mobiel gebruik. Echter startte de Verenigede Naties met een uitdaging aan, de Race to Resilience, waaraan de opdrachtgevers graag wilde deelnemen. Hierdoor werd de opdracht gewijzigd. De nieuwe opdracht vormde zich tot het opzetten van een <Link href="/misc/woordenlijst"><span className="underline">high-fidelity</span></Link> prototype van een mobiel kennisplatform voor het delen van oplossingen met betrekking tot klimaat verandering.
+                            Origineel was de opdracht om de huidige Global Goals Community te analyseren en optimaliseren voor mobiel gebruik. Echter startte de Verenigede Naties met een uitdaging aan, de Race to Resilience, waaraan de opdrachtgevers graag wilde deelnemen. Hierdoor werd de opdracht gewijzigd. De nieuwe opdracht vormde zich tot het opzetten van een high-fidelity prototype van een mobiel kennisplatform voor het delen van oplossingen met betrekking tot klimaat verandering.
                         </p>
                     </article>
 
                     <article>
                         <h2>De opdracht</h2>
-                        <p>Het nieuwe doel van de opdracht is om een kennisplatform te ontwerpen en uit te werken tot, minimaal, een functionerende prototype. Dit kennisplatform maakt dan kans om door de UN gebruikt te worden als hun Race to Resilience tool.</p>
+                        <p>
+                            Het nieuwe doel van de opdracht is om een kennisplatform te ontwerpen en uit te werken tot, minimaal, een functionerende prototype. Dit kennisplatform maakt dan kans om door de UN gebruikt te worden als hun Race to Resilience tool.
+                        </p>
                         <h3>Eisen aan de Opdracht</h3>
-                        <p>Eisen aan de nieuwe opdracht hebben betrekking tot <Link href="/misc/woordenlijst"><span className="underline">mobile-first</span></Link> en het bieden van een degelijke mobiele gebruikers ervaring. Verder heeft het als doel om de applicatie internationaal aan te bieden, alles dient daarom in het Engels gemaakt te worden.</p>
+                        <p>
+                            Eisen aan de nieuwe opdracht hebben betrekking tot mobile-first en het bieden van een degelijke mobiele gebruikers ervaring. Verder heeft het als doel om de applicatie internationaal aan te bieden, alles dient daarom in het Engels gemaakt te worden.
+                        </p>
                         <h3>MoSCoW</h3>
-                        <p>Om structuur aan het project te geven zijn de oplever-doelen omschreven doormiddel van een <Link href="/misc/woordenlijst"><span className="underline">MoSCoW</span></Link> methode. Hierin staan de belangrijkste zaken die het <Link href="/misc/woordenlijst"><span className="underline">minimun viable product (MPV)</span></Link> zou moeten bevatten.</p>
+                        <p>
+                            Om structuur aan het project te geven zijn de oplever-doelen omschreven doormiddel van een MoSCoW methode. Hierin staan de belangrijkste zaken die het minimun viable product (MPV) zou moeten bevatten.
+                        </p>
 
                         <div className={frst_style.research_box}>
                             <div className={frst_style.moscow_container}>
                                 <p className={frst_style.moscow_title}><b>Must haves</b></p>
                                 <p className={frst_style.moscow_text}>
                                     - Digitaal platform onderzoek <br />
-                                - Trendonderzoek <br />
-                                - Technisch onderzoek <br />
-                                - Doelgroep onderzoek <br />
-                                - Huidige website analyse <br />
-                                - Mobile-first ontwerp <br />
-                                - Mobile-first prototypes <br />
+                                    - Trendonderzoek <br />
+                                    - Technisch onderzoek <br />
+                                    - Doelgroep onderzoek <br />
+                                    - Huidige website analyse <br />
+                                    - Mobile-first ontwerp <br />
+                                    - Mobile-first prototypes <br />
                                 </p>
                                 <p className={frst_style.moscow_title}><b>Should haves</b></p>
                                 <p className={frst_style.moscow_text}>
                                     - Scrum methode <br />
-                                - User tests <br />
+                                    - User tests <br />
                                 </p>
                                 <p className={frst_style.moscow_title}><b>Could haves</b></p>
                                 <p className={frst_style.moscow_text}>
                                     - Installeerbare (PWA) <br />
-                                - Offline mogelijkheden <br />
+                                    - Offline mogelijkheden <br />
                                 </p>
                                 <p className={frst_style.moscow_title}><b>Won't haves</b></p>
                                 <p className={frst_style.moscow_text}>
                                     - Native Applicatie bouwen <br />
-                                - Marketing <br />
+                                    - Marketing <br />
                                 </p>
                                 <br />
                             </div>
                             <img src="/illustrations/undraw_home_screen_4n7s.svg" />
                         </div>
                         <br />
-
                     </article>
-
                 </section>
 
 
@@ -142,12 +150,12 @@ const First_page = () => {
 
                 <section id="proces">
                     <article>
-                        <h2>Proces</h2>
+                        <h2>Aanpak</h2>
                         <p>
-                            Het project is doorlopen in vijf verschillende fases: orientatiefase, onderzoekfase, conceptfase, testfase en prototypefase. Deze fases zijn onder te verdelen in drie processen: analyseproces, realisatieproces en het meetproces.
-                            <br />
-                            <br />
-                            Tijdens het project is het <Link href="/misc/woordenlijst"><span className="underline">DOT-framework</span></Link> gehanteerd, meer informatie over dit framework is te vinden op de <Link href="https://ictresearchmethods.nl/The_DOT_Framework"><u>website</u></Link> van ictresearchmethods wiki.
+                            Het project is doorlopen in zes verschillende fases: orientatiefase, onderzoekfase, conceptfase, testfase, prototypefase en overdrachtfase. Deze fases zijn onder te verdelen in drie processen: analyseproces, realisatieproces en het meetproces.
+                        </p>
+                        <p>
+                            Tijdens het project is het <Link href="/misc/woordenlijst"><span className="underline">DOT-framework</span></Link> gehanteerd, meer informatie over dit framework staat op <Link href="https://ictresearchmethods.nl/The_DOT_Framework">ictresearchmethods</Link>.
                         </p>
                     </article>
                 </section>
@@ -159,7 +167,9 @@ const First_page = () => {
                             <h3>Oriëntatiefase</h3>
                             <img src="/dot_framework/100px-Logo-library.png" />
                         </div>
-                        <p>Tijdens de oriëntatiefase is er verdieping gezocht in de opdracht. Een kennisplatform maken met betrekking tot oplossingen voor de klimaat verandering. Om meer inzicht te krijgen in de opdracht is er een <Link href="/documents/Individuele_Analyse_Opdracht.pdf"><u>individuele opdracht analyse</u></Link> gemaakt. Aan de hand van deze analyse is er een hoofdvraag en zijn er deelvragen opgesteld.</p>
+                        <p>
+                            Tijdens de oriëntatiefase is er verdieping gezocht in de opdracht. Een kennisplatform maken met betrekking tot oplossingen voor de klimaat verandering. Om meer inzicht te krijgen in de opdracht is er een individuele opdracht analyse gemaakt. Aan de hand van deze analyse zijn de hoofd- en deelvragen opgesteld.
+                        </p>
                     </article>
                 </section>
 
@@ -202,80 +212,229 @@ const First_page = () => {
                         <div className={frst_style.research_box}>
                             <div>
                                 <p>
-                                    In de onderzoekfase is er onderzoek gedaan naar de opgestelde deelvragen, doormiddel van literatuuronderzoek. Mijn onderzoeken hadden betrekking tot deelvragen 1 (wat houdt een kennisplatform in?) en 4 (hoe vertaal je het concept naar een mobiele interface?).
-                                    <br />
-                                    <br />
-                                    Voor het doen van literatuur onderzoek naar kennisplatforms is er eerst een <Link href="/documents/Onderzoeksopzet.pdf"><u>onderzoek-opzet</u></Link> gemaakt. Hierin is de onderzoeksmethode en uitvoering beschreven. Het onderzoek naar kennisplatforms wordt verdeeld in meerdere kleinere vragen, waarin er eerst breed gekeken wordt naar het bovenliggende onderwerp (digitale platformen) en er vervolgens via een trechter wordt gekeken naar de specifieke kenmerken van een kennisplatform.
-                                </p>
-                                <div className={frst_style.research_button_box}>
-                                    <a className={frst_style.inbetween_button01}
-                                        href="/documents/Onderzoeksopzet.pdf"
-                                        target="_blank">
-                                        Onderzoek opzet
-                                    </a>
-                                </div>
+                                    In de onderzoeksfase is er onderzoek gedaan naar de opgestelde deelvragen, doormiddel van literatuuronderzoek. Mijn onderzoeken hebben betrekking tot deelvraag 1 en deelvraag 4. Wat houdt een kennisplatform in? En hoe vertaal je het concept naar een mobiele interface?.
+                                    </p>
+                                <p>
+                                    Voor het doen van onderzoek is er een <Link href="/documents/Onderzoeksopzet.pdf"><u>onderzoek-opzet</u></Link> gemaakt. Hierin zijn de onderzoeksmethode en uitvoering beschreven. Onderzoek wordt gevormd vanuit een vraag. Deze vraag wordt opgedeeld in kleinere deelvragen. Door deelvragen eerst groot/breed te nemen en vervolgens de vragen steeds verdiepender te stellen, als het waren als een trechter, kan de deelvraag het beste beantwoord worden.
+                                    </p>
                             </div>
                             <img src="/illustrations/undraw_Process_re_gws7.svg" />
                         </div>
-                        <div className={frst_style.spacing}></div>
+
+                        <h4>Wat houdt een kennisplatform in?</h4>
                         <p>
-                            In mijn onderzoek naar <Link href="/documents/Digitale_platformen.pdf"><u>kennisplatformen</u></Link> is er gekeken digitale platformen en kennisplatformen. Hierbij is er gekeken naar de definitie, soorten en voorbeelden van digitale platformen en de verschillende onderdelen hiervan. Vervolgens is er vanuit de digitale platformen ingezoomd op kennisplatformen, waarbij er gekeken is naar de definitie en kenmerken.
+                            Om de deelvraag te kunnen beantwoorden is er eerst in de breedte gekeken naar digitale platformen in zijn algemene zin. Hierin is gekeken naar de definitie, soorten, voorbeelden en onderdelen van digitale platformen. Vervolgens is er verdieping gezocht naar wat de definitie van een kennis-platform is en wat de kenmerken en kernpunten zijn.
                         </p>
                         <div className={frst_style.conclusion_research_01}>
                             <div className={frst_style.conclusion_research_01_title}>
-                                <h3>Conclusie - Digitale platformen</h3>
+                                <h3>Conclusie - Wat houdt een kennisplatform in?</h3>
                                 <p>BIEB - Literatuur onderzoek</p>
                             </div>
                             <p>
-                                Een kennis-platform is een digitaal platform, ook wel te omschrijven als een interactieve online omgeving, waar informatie en kennis over één of meerdere onderwerpen verzamelt, centraal opgeslagen en verspreid worden. Het biedt een brug tussen onwetendheid en expertise; tussen vraag en aanbod van informatie en kennis.
-                                <br />
-                                <br />
+                                Een kennis-platform is een digitaal platform, ook wel te omschrijven als een interactieve online omgeving, waar informatie en kennis over één of meerdere onderwerpen verzamelt, centraal opgeslagen en verspreid worden.
+                            </p>
+                            <p>
+                                Het biedt een brug tussen onwetendheid en expertise; tussen vraag en aanbod van informatie en kennis.
+                            </p>
+                            <p>
                                 Kenmerken van een kennis-platform kunnen opgedeeld worden in 3 onderwerpen: toegankelijkheid, interactie en indexering.
-                                <br />
-                                <br />
+                            </p>
+                            <p>
                                 Het kennis-platform dient toegankelijk en aantrekkelijk zijn voor gebruikers. Het moet uitnodigen om vragen te stellen, informatie te delen en te reageren op content van andere gebruikers. Kansen liggen er op het ontwikkelen van een API ecosysteem, voor meer interactie binnen en buiten het platform. Verder is het van belang dat een kennis-platform overzichtelijk is ingedeeld. Dit draagt tevens bij aan de toegankelijkheid en interactie.
                             </p>
                         </div>
+
+
+                        <h4>Hoe vertaal je het concept naar een mobiele interface?</h4>
                         <p>
-                            Tijdens het uitvoeren van mijn tweede literatuuronderzoek naar <Link href="/documents/Kwaliteiten_Mobiel_Interface"><u>kwaliteiten van een mobiele interface</u></Link> is onderzocht wat de design principes van een mobiele interface zijn.
+                            In dit literatuuronderzoek is er gekeken naar de design principes van mobiele interfaces. Hiervoor is er onderzoek gedaan naar de verschillende mobiele schermen/pagina’s relevant zijn en wat de inhoudt betreft. Verder is er gekeken naar welke design principes van belang zijn. Ook is er aandacht besteed aan de psychologie achter een mobiel ontwerp.
                         </p>
                         <div className={frst_style.conclusion_research_01}>
                             <div className={frst_style.conclusion_research_01_title}>
-                                <h3>Conclusie - Kwaliteiten mobiele interface</h3>
+                                <h3>Conclusie - Hoe vertaal je het concept naar een mobiele interface?</h3>
                                 <p>BIEB - Literatuur onderzoek</p>
                             </div>
                             <p>
                                 Een goed mobiel ontwerp is gebouwd op een degelijk onderzoek naar de opdracht en het onderwerp. Doormiddel van onderzoek kunnen gemaakte keuzes beargumenteerd worden en kan een “False-Consensus Effect” voorkomen worden. Dit effect verwijst naar de neiging van designers om verkeerde aannames te doen.
-                                <br />
-                                <br />
+                            </p>
+                            <p>
                                 Er zijn verschillende soorten pagina’s voor mobiele websites en applicaties. Iedere pagina heeft zijn eigen doel en eigenschappen. Door in de ontwerpfase de website of applicatie in pagina’s op te delen, kan er een structuur opgebouwd worden.
-                                <br />
-                                <br />
-                                Een van de belangrijkste elementen is eenvoud. Hiermee wordt bedoeld dat de pagina, inhoud en/of interactie zo gemakkelijk mogelijk gemaakt moet worden voor een optimale user-flow in het design. Dit kan bereikt worden door de gebruiker niet te overweldigen met onnodige informatie en duidelijke feedback aan de gebruiker te geven. Dit kan onder andere bereikt worden door flexibel te zijn en tolerant om te gaan met of in te spelen op eventuele fouten van de gebruiker.
+                            </p>
+                            <p>
+                                Een van de belangrijkste elementen is eenvoud. Hiermee wordt bedoelt dat de pagina, inhoud en/of interactie zo gemakkelijk mogelijk gemaakt moet worden voor een optimale user-flow in het design. Dit kan bereikt worden door de gebruiker niet te overweldigen met onnodige informatie en duidelijke feedback aan de gebruiker te geven. Dit kan onder andere bereikt worden door flexibel te zijn en tolerant om te gaan met of in te spelen op eventuele fouten van de gebruiker.
                             </p>
                         </div>
-                        <p>
-                            Mijn uitgevoerde literatuuronderzoeken en de andere onderzoeken met betrekking tot de deelvragen zijn samengevoegd in het een <Link href="/documents/Hoofd_onderzoek_document.pdf"><u>hoofd onderzoeks document</u></Link>. Hierin staan ook de onderzoeken naar deelvragen van andere project-leden.
-                        </p>
-                        <div className={frst_style.research_file_box}>
-                            <a className={frst_style.inbetween_button01}
-                                href="/documents/Digitale_platformen.pdf"
-                                target="_blank">
-                                Digitale platformen
+
+                        <section>
+                            <div id="vragen_block" className={frst_style.researchquestions_header} onClick={() => togglePrinciples(!showPrinciples)} >
+                                <p>Toon de mobiele design principes</p>
+                            </div>
+                            {showPrinciples &&
+                                <div className="vragen_box">
+
+                                    <h3>Eenvoud</h3>
+                                    <p>
+                                        Een goed design maakt het de gebruiker gemakkelijk. Hiermee wordt bedoelt dat veel voorkomende taken makkelijk en eenvoudig gemaakt moeten worden doormiddel van duidelijke en eenvoudige communicatie en interacties.
+                                    </p>
+
+                                    <h3>Zichtbaarheid</h3>
+                                    <p>
+                                        Een ontwerp dient alle benodigde opties en materialen voor een bepaalde interactie of taak zichtbaar te maken, zonder de gebruiker af te leiden met irrelevante of overbodige informatie.
+                                    </p>
+                                    <p>
+                                        Een goed ontwerp overweldigt de gebruikers niet met alternatieven of verwarren hem/haar niet met onnodige informatie.
+                                    </p>
+
+                                    <h3>Feedback</h3>
+                                    <p>
+                                        Binnen een applicatie moet de gebruiker op de hoogte gehouden worden van alles wat er op de website gebeurt en veranderd (acties, wijzigingen van de staat of toestand en fouten of uitzonderingen die relevant en van belang zijn voor de gebruiker).
+                                    </p>
+                                    <p>
+                                        Het moet voorkomen worden dat een gebruiker op een lege/dode pagina uit komt. Dit blokkeert de user-flow en zorgt voor verwarring bij de gebruiker.
+                                    </p>
+                                    <p>
+                                        Het helpt gebruikers niet om de hoofdoorzaak van het probleem te begrijpen en het geeft geen antwoord op de gebruikers-vragen: "Waarom gebeurt dit en wat kan ik eraan doen?"
+                                    </p>
+
+                                </div>}
+                        </section>
+
+                    </article>
+                </section>
+
+                <br />
+
+                <section className={frst_style.inbetween01_container}>
+                    <div className={frst_style.inbetween01_box}>
+                        <a className={frst_style.inbetween_button02}
+                            href="/documents/Digitale_platformen.pdf"
+                            target="_blank">
+                            Digitale platformen
                             </a>
-                            <a className={frst_style.inbetween_button02}
-                                href="/documents/Kwaliteiten_Mobiel_Interface.pdf"
-                                target="_blank">
-                                Kwaliteiten mobiele interface
+                        <a className={frst_style.inbetween_button02}
+                            href="/documents/Kwaliteiten_Mobiel_Interface.pdf"
+                            target="_blank">
+                            Kwaliteiten mobiele interface
                             </a>
-                            <a className={frst_style.inbetween_button02}
-                                href="/documents/Hoofd_onderzoek_document.pdf"
-                                target="_blank">
-                                Hoofd onderzoeks document
+                        <a className={frst_style.inbetween_button02}
+                            href="/documents/Hoofd_onderzoek_document.pdf"
+                            target="_blank">
+                            Hoofd onderzoeks document
                             </a>
+                    </div>
+                </section>
+
+                <br />
+
+                <section id="concept">
+                    <article>
+                        <div className={frst_style.process_header}>
+                            <h3>Conceptfase</h3>
+                            <img src="/dot_framework/100px-Logo-workshop.png" />
+                            <img src="/dot_framework/100px-Logo-field.png" />
+                            <img src="/dot_framework/100px-Logo-showroom.png" />
                         </div>
+
                         <p>
-                            Naast de literatuuronderzoeken met betrekking tot de deelvragen, zijn er ook de volgende onderzoeken afgenomen: heuristische analyse wikihow, userflow analyse kennisplatforms en mobiele design trends analyse. Deze onderzoeken bieden verschillende inzichten die van cruciaal belang zijn voor de conceptfase.
+                            In de conceptfase zijn er verschillende stappen ondernomen om tot een gedegen concept te komen. Een concept die voldoet aan de geldende design principes voor een mobiele applicatie en aansluit bij de opdracht, een mobiel kennisplatform.
+                        </p>
+
+                        <div className={frst_style.research_box}>
+                            <div>
+                                <p>
+                                    Om te starten is er door mij een brainstorm sessie met de projectgroep opgezet. Hiervoor is een brainstorm opzet opgemaakt. Doormiddel van de brainstorm 101 methode zijn we in brede zin onderdelen en elementen van het kennisplatform gaan bedenken. Vervolgens zijn doormiddel van dot-voting de belangrijkste elementen uit de brainstorm verzameld. Klik <u onClick={() => toggleBrainstorm(!showBrainstorm)}>hier</u> voor de brainstorm resultaten.
+                                </p>
+                                <p>
+                                    De resultaten van de brainstorm geven inzicht in de benodigdheden voor de web applicatie. Uit onderzoek naar de kwaliteiten van een mobiele interface werd het belang van het uitplannen van de verschillende pagina’s benadrukt. Om deze reden is er een sitemap opgezet met daarop alle pagina’s en ‘routing’ binnen de web applicatie. Klik <u onClick={() => toggleSitemap(!showSitemap)}>hier</u> voor de sitemap.
+                                </p>
+                            </div>
+                            <img src="/illustrations/undraw_mobile_development_8gyo.svg" />
+                        </div>
+
+                        {showBrainstorm &&
+                            <div>
+                                <h4>Feature Brainstorm resulaten</h4>
+                                <br />
+                                <img className="default_image" src="/documents/Feature_brainstorming_Resultaat.png" />
+                            </div>
+                        }
+
+                        {showSitemap &&
+                            <div>
+                                <h4>Sitemap</h4>
+                                <br />
+                                <img className="default_image" src="/documents/Race_to_Resillience_Sitemap.png" />
+                            </div>
+                        }
+
+                        <p>
+                            Binnen de conceptfase zijn de verschillende pagina’s (aan de hand van de sitemap) verdeeld over de groepsleden. Mijn eerste ontwerpen hebben betrekking tot het aanmaken van een nieuwe klimaat oplossing, deze pagina’s worden in dit portfolio ook wel de “Write a Solution” pagina’s genoemd.
+                        </p>
+                        <p>
+                            Voordat er begonnen is met het schetsen van de eerste ontwerpen is er een trendanalyse met betrekking tot de huidige mobiele trends gemaakt. Uit deze trendanalyse zijn relevante trends geselecteerd die toepasbaar zijn op dit project.
+                        </p>
+
+                        <div className={frst_style.conclusion_research_01}>
+                            <div className={frst_style.conclusion_research_01_title}>
+                                <h3>Conclusie - Trendanalyse</h3>
+                                <p>BIEB - Literatuur onderzoek</p>
+                            </div>
+                            <p>
+                                Uit het analyseren van verschillende trendanalyses met betrekking tot mobiele ontwerpen kan geconcludeerd worden dat er veel verschillen zitten tussen de trends. Echter zijn er ook overeenkomende trends, welke in deze analyse verder zijn onderzocht.
+                            </p>
+                            <p>
+                                De analyses van individuele trends laten zien dat de trends mogelijkheden bieden, maar dat niet alle trends relevantie hebben tot het project. Daarbij komt kijken dat binnen de scope van het project (negen weken) niet alle trends haalbaar zijn om uit te voeren door onszelf.
+                            </p>
+                            <p>
+                                De trends <b>Micro-animations</b>, <b>(Animated) Illustrations</b> en <b>Rounded (corners) and Organic Shapes</b> zijn relevant en toepasbaar met betrekking tot het project. Dit heeft te maken met het feit dat deze trends klein en eenvoudig toe te passen zijn in de scope van het project.
+                            </p>
+                        </div>
+
+                        <section>
+                            <div id="vragen_block" className={frst_style.researchquestions_header} onClick={() => toggleTrends(!showTrends)} >
+                                <p>Toon de relevante trends</p>
+                            </div>
+                            {showTrends &&
+                                <div className="vragen_box">
+                                    <h3>Micro-interactions</h3>
+                                    <p>
+                                        De trend met betrekking tot Micro-interacties, waarbij elementen op de website geanimeerd worden, is zeer relevant en toepasbaar binnen het project. De micro-interacties kunnen een toegevoegde waarde geven aan het ontwerp en de gebruikers-ervaring van gebruikers. Hierbij kan gedacht worden aan het openen van een menu, het inladen van content en het invoeren en verzenden van gegevens.
+                                    </p>
+                                    <h3>(Animated) Illustrations</h3>
+                                    <p>
+                                        De trend voor het toepassen van (geanimeerde) illustraties, ter bevordering van de beleving binnen de applicatie, is een relevante trend. Binnen de scope van het project wordt echter niet als haalbaar getracht om als designers zelfstandig illustraties te maken en animeren. Een oplossing is eventueel om een set illustraties te laten maken of online te vinden. Deze trend is relevant en kan toegepast worden binnen het project.
+                                    </p>
+                                    <h3>Rounded (corners) and Organic Shapes</h3>
+                                    <p>
+                                        Deze design trend met ronde vormen wordt steeds meer gebruikt. Het komt onder andere door de recent verschenen smartphones met geronde hoeken en optioneel een ronde camera uitsparing in het scherm. De trend is zeer relevant en toepasbaar binnen het project. Verschillende UI-elementen zoals knoppen en vlakken kunnen worden voorzien van rondingen. Deze trend is relevant en kan toegepast worden binnen het project.
+                                    </p>
+                                </div>}
+                        </section>
+
+                        <p>
+                            De eerste schetsen zijn ontworpen naar aanleiding van de opdrachtgevers Global Goal Community website. De achtergrond cirkel is gebruikt en de kleuren wit en groen zijn gebruikt. Verder is er gebruik gemaakt van de trends rondom rounded (corners) and organic Shapes en (animated) illustrations. Knoppen en vlakken zijn afgerond en de succes-pagina bevat een relevante illustratie.
+                        </p>
+
+                        <div className={frst_style.mockup_container}>
+                            <div>
+                                <img className={frst_style.mockup} src="/documents/Design_Mock-up_V1.png" />
+                                <p>Eerste iteratie "Write a solution" pagina's</p>
+                            </div>
+                        </div>
+
+                        <p>
+                            Aan de hand van de eerste schetsen is er wederom een brainstorm sessie gehouden. In deze brainstorm sessie zijn alle positieve punten van de verschillende ontwerpen benoemd. Bekijk de positieve punten door <u onClick={() => togglePositives(!showPositives)}>hier</u> te klikken.
+                        </p>
+
+                        {showPositives &&
+                            <img className="default_image" src="/documents/Prototype_Schets_samenvoeging.png" />
+                        }
+
+                        <p>
+                            In overleg met de opdrachtgevers Ad Vlems en Ronald Hazelzet, met betrekking tot de eerste ontwerpen, hebben zij aangegeven dat de nieuwe web applicatie geen direct verband hoeft te hebben met de huidige Global Goals Community website. Na deze feedback zijn er nieuwe ontwerpen gemaakt.
+                        </p>
+                        <p>
+                            Voor het maken van nieuwe iteraties op het ontwerp is er meer onderzoek gedaan naar user-flows, met betrekking tot het plaatsen van content, op andere digitale platformen. Daarbij is er ook een heuristische analyse gemaakt.
                         </p>
 
                         <div className={frst_style.analysis_container}>
@@ -302,18 +461,6 @@ const First_page = () => {
                                     </a>
                                 </div>
                             </div>
-
-                            <div className={frst_style.analysis_box} onClick={() => toggleTrends(!showTrends)}>
-                                <div className={frst_style.analysis_boxer}>
-                                    <h3>Mobiele trend analyse</h3>
-                                    <img src="/illustrations/undraw_mobile_ux_o0e1.svg" />
-                                    <a className={frst_style.inbetween_button03}
-                                        href="/documents/Mobile_Design_Trend_Analyse.pdf"
-                                        target="_blank">
-                                        Mobiele trend analyse
-                                    </a>
-                                </div>
-                            </div>
                         </div>
 
                         {showHeuristic &&
@@ -336,78 +483,61 @@ const First_page = () => {
                             </div>
                         }
 
-                        {showTrends &&
-                            <div className="conclusie_box">
-                                <h3>Conclusie mobiele trend analyse</h3>
-                                <p>Door de verschillende analyses te combineren is er een kwalitatief onderzoek gedaan naar de actuele trends binnen mobiel design. Hieruit zijn 7 overeenkomende mobiele trends naar boven gekomen en verder geanalyseerd. </p>
-                                <br />
-                                <p>Uit de trend analyse kan geconcludeerd worden dat mede door de ontwikkeling in mobiele processor kracht en de (mobiele) browsers veel meer (nieuwe) toepassingen mogelijk zijn. Zo zijn micro-animaties eenvoudiger te draaien en kunnen mobiele applicaties zelfs overweg met 3D graphics en Augmented Reality. Daarbij bevorderen deze trends de beleving van de gebruiker.</p>
-                                <br />
-                                <p>De volgende trends zijn eenvoudig te implementeren en hebben een grote impact op de gebruikers ervaring: Micro animaties, Illustraties, Rounded Corners.</p>
-                            </div>
-                        }
-
-                    </article>
-                </section>
-
-                <section id="concept">
-                    <article>
-                        <div className={frst_style.process_header}>
-                            <h3>Conceptfase</h3>
-                            <img src="/dot_framework/100px-Logo-workshop.png" />
-                            <img src="/dot_framework/100px-Logo-field.png" />
-                            <img src="/dot_framework/100px-Logo-showroom.png" />
-                        </div>
-                        <br />
-                        <div className={frst_style.research_box}>
-                            <img src="/illustrations/undraw_Scrum_board_re_wk7v.svg" />
-                            <div>
-                                <p>
-                                    Het onderzoek naar de kwaliteiten van een mobiele interface toont de relevantie aan van het uitplannen van de verschillende pagina’s voor het ontwerpen. Om een goed beeld te krijgen van wat er ontworpen dient te worden zijn er twee acties ondernomen. Er is een gezamenlijke <Link href="/misc/woordenlijst"><span className="underline">brainstorm 101</span></Link> sessie gehouden over de features van de website en er is een <Link href="/misc/woordenlijst"><span className="underline">sitemap</span></Link> opgezet, met daarin alle pagina’s voor het ontwerp.
-                                    <br />
-                                    <br />
-                                    Om de gezamenlijke <Link href="/misc/woordenlijst"><span className="underline">brainstorm 101</span></Link> sessie in goede banen te lijden, is er een <Link href="/documents/Brainstorm_opzet.pdf"><u>brainstorm opzet</u></Link> gemaakt. Hierin staat het concept voor de brainstorm, de methodes, tools, rolverdeling, planning en het resultaat beschreven.
-                                </p>
-                                <div className={frst_style.research_button_box}>
-                                    <a className={frst_style.inbetween_button01}
-                                        href="/documents/Brainstorm_opzet.pdf"
-                                        target="_blank">
-                                        Brainstorm opzet
-                                </a>
-                                </div>
-                            </div>
-                        </div>
-                        <br />
-                        <br />
                         <p>
-                            <br />
-                            Met de features voor de website beschreven uit de brainstorm is er een <Link href="/documents/Race_to_Resillience_Sitemap.png"><u>sitemap</u></Link> opgemaakt. Hierin staan alle verschillende pagina’s voor de website. Dit maakt duidelijke welke pagina’s er zijn, welke er dus ontworpen moeten worden en opgezet dienen te worden voor de development omgeving.
+                            In de nieuwe iteraties op het ontwerp heb ik naast mijn “Write a solution” pagina’s ook de layout van de web applicatie ontworpen. Er is daarbij rekening gehouden met de eerdere gebruikte trends, de onderzochte design principes en de resultaten uit de userflow en heuristische analyse.
                         </p>
                         <p>
-                            Tijdens de conceptfase is er gekozen voor een creatief vrije manier van werken. De verschillende pagina’s werden verdeeld onder de project-leden en zonder verdere voorwaarden heeft iedereen de kans gekregen om een eerste ontwerp schets te maken. Mijn ontwerpen hebben betrekking tot het aanmaken van een nieuwe klimaat oplossing: “Write a Solution”.
+                            De design principes eenvoud, zichtbaarheid en feedback zijn gebruikt in het ontwerpen van de nieuwe iteratie. Toepassingen hiervan zijn te vinden in het menu, waarbij ervoor gekozen is maar drie elementen te plaatsen en bijvoorbeeld het profiel knopje rechts bovenin te plaatsen. Verder zijn de “Write a Solution” pagina’s opgedeeld in verschillende stappen om eenvoud en zichtbaarheid te vergroten van de individuele onderdelen.
                         </p>
                         <p>
-                            Na overleg zijn de positieve punten van alle designs gebundeld op <Link href="/documents/Prototype_Schets samenvoeging.pdf"><u>Google Jamboard</u></Link> en zijn er iteraties gegaan over het ontwerp. Er is tevens door een van de project-leden een <Link href="/documents/BrandGuide_GGC.pdf"><u>style-guide</u></Link> (Maximilian) opgezet om bij te dragen aan een uniform ontwerp.
+                            In het midden van het menu zit een grote groene knop, waarmee gebruikers ten alle tijden gemotiveerd worden om een nieuwe oplossing gaan en kunnen schrijven. Dit is naar aanleiding van de userflow analyse.
                         </p>
                         <p>
-                            Verschillende iteraties van ontwerpen zijn uitgewerkt en getoond aan de opdrachtgevers. Mijn feedback betrof het toevoegen van een mogelijkheid om de impact van een oplossing toe te kunnen voegen.
+                            Naar aanleiding van de userflow analyse is er een opzichtige knop in de layout gekomen waarmee een gebruiker ten alle tijden een nieuwe oplossing kan schrijven.
+                        </p>
+                        <p>
+                            En naar aanleiding van de conclusie uit de heuristische analyse is er meer documentatie gekomen voor de gebruiker. Dit is ontworpen in de vorm van vraagtekens per onderdeel waarmee er een kortbondige uitleg tevoorschijn komt voor de gebruiker.
                         </p>
 
                         <div className={frst_style.mockup_container}>
-                            <div>
-                                <img className={frst_style.mockup} src="/documents/Design_Mock-up_V1.png" />
-                                <p>Eerste iteratie "Write a solution" pagina's</p>
-                            </div>
-
                             <div>
                                 <img className={frst_style.mockup} src="/documents/Design_Mock-up_V2.png" />
                                 <p>Tweede iteratie "Write a solution" pagina's</p>
                             </div>
                         </div>
 
+                        <p>
+                            Tijdens de een terugkoppel moment met de opdrachtgever zijn de nieuwe iteraties gepresenteerd. Mijn feedback betrof het toevoegen van een mogelijkheid om de impact van een oplossing toe te kunnen voegen. Deze feedback is uiteindelijk verwerkt in het uitgewerkte prototype.
+                        </p>
 
                     </article>
                 </section>
+
+
+                <br />
+
+                <section className={frst_style.inbetween01_container}>
+                    <div className={frst_style.inbetween01_box}>
+                        <a className={frst_style.inbetween_button02}
+                            href="/documents/Mobile_Design_Trend_Analyse.pdf"
+                            target="_blank">
+                            Trendanalyse
+                            </a>
+                        <a className={frst_style.inbetween_button02}
+                            href="/documents/Heuristische_Evaluatie_Wikihow.pdf"
+                            target="_blank">
+                            Heuristische analyse
+                            </a>
+                        <a className={frst_style.inbetween_button02}
+                            href="/documents/Userflow_Analyse_Kennis_platform_posten.pdf"
+                            target="_blank">
+                            Userflow analyse
+                            </a>
+                    </div>
+                </section>
+
+                <br />
+
 
                 <section id="testen">
                     <article>
@@ -415,9 +545,41 @@ const First_page = () => {
                             <h3>Testfase</h3>
                             <img src="/dot_framework/100px-Logo-lab.png" />
                         </div>
-                        <p>
-                            In de testfase is er gebruikersonderzoek gedaan naar mijn ontworpen pagina’s, “Write a Solution”. Het doel is om erachter te komen of gebruikers zich kunnen navigeren door het formulier. Voor de gebruikerstest is er een <Link href="/documents/Usability_Test_Write_a_Solution.pdf"><u>onderzoeksplan</u></Link> opgesteld, waarin de doelen, onderzoeksvragen en -methoden worden vastgesteld.
-                        </p>
+                        <div className={frst_style.research_box}>
+                            <div>
+                                <p>
+                                    In de testfase is er gebruikersonderzoek gedaan naar mijn ontworpen pagina’s, “Write a Solution”. Het doel is om erachter te komen of gebruikers zich kunnen navigeren door het formulier. Voor de gebruikerstest is er een onderzoeksplan opgesteld, waarin de doelen, onderzoeksvragen en -methoden worden vastgesteld.
+                                </p>
+                                <p>
+                                    Het gebruikersonderzoek is afgenomen doormiddel van een online tool, genaamd Maze. Dit is een online usability-test tool, waarin gebruikers digitaal een test kunnen afnemen. Ze kunnen hierin vragen blokken beantwoorden en clickable prototypen uitproberen.
+                                </p>
+                                <p>
+                                    Omdat het gebruikersonderzoek richting het einde van het project uitgevoerd is, is er geen tijd overgebleven om de resultaten te implementeren. De resultaten uit het gebruikersonderzoek dienen daarom als advies en zijn tevens terug te vinden in het overdrachtsdocument.
+                                </p>
+                            </div>
+                            <img src="/illustrations/undraw_mobile_ux_o0e1.svg" />
+                        </div>
+
+
+
+                        <div className={frst_style.conclusion_research_01}>
+                            <div className={frst_style.conclusion_research_01_title}>
+                                <h3>Adviezen uit het gebruikersonderzoek</h3>
+                                <p>LAB - Usability Testing</p>
+                            </div>
+                            <p>
+                                Uit de <Link href="/misc/woordenlijst"><span className="underline">Heatmaps</span></Link> van de drie missies valt op te merken dat het ontwerp correct geïnterpreteerd wordt. Binnen drie “Clicks” weet zeker tachtig procent van de gebruikers het doel te bereiken. Enkele problemen en vragen betrekken zich tot het clickable prototype dat gebruikt is voor de usability test, waarin gebruikers bijvoorbeeld niet op alle categorieën konden klikken en teksten bij een klik op de knop ingevuld werden.
+                                <br />
+                                <br />
+                                Vier gebruikers gaven aan dat de informatie binnen het formulier hen niet verder heeft geholpen. Hier dient extra aandacht aan besteed te worden. De teksten kunnen verbeterd worden en eventueel kan er een illustratie of kleine animatie toegevoegd worden, die bijdraagt aan het verduidelijken van de opdracht. Ook zou een uitleg pagina, met eventueel een uitleg video, een toevoeging zijn aan de documentatie voor de gebruiker.
+                                <br />
+                                <br />
+                                Als laatste dient er gekeken te worden naar de “Impact meter”. Gebruikers gaven aan dat ze niet weten wat dit inhoudt. Ook hierin kan de documentatie en begeleiding van de gebruiker verbeterd worden.
+                            </p>
+                        </div>
+
+
+
                         <div className={frst_style.research_file_box}>
                             <a className={frst_style.inbetween_button01}
                                 href="/documents/Usability_Test_Write_a_Solution.pdf"
@@ -435,28 +597,10 @@ const First_page = () => {
                                 Maze Resultaten
                             </a>
                         </div>
-                        <p>
-                            Het gebruikersonderzoek is afgenomen doormiddel van een online tool, genaamd Maze. Dit is een online <Link href="/misc/woordenlijst"><span className="underline">usability-test</span></Link> tool, waarin gebruikers digitaal een test kunnen afnemen. Ze kunnen hierin vragen blokken beantwoorden en clickable prototypen uitproberen.
-                            <br />
-                        </p>
 
-                        <div className={frst_style.conclusion_research_01}>
-                            <div className={frst_style.conclusion_research_01_title}>
-                                <h3>Resultaten - Gebruikersonderzoek</h3>
-                                <p>LAB - Usability Testing</p>
-                            </div>
-                            <p>
-                                Uit de <Link href="/misc/woordenlijst"><span className="underline">Heatmaps</span></Link> van de drie missies valt op te merken dat het ontwerp correct geïnterpreteerd wordt. Binnen drie “Clicks” weet zeker tachtig procent van de gebruikers het doel te bereiken. Enkele problemen en vragen betrekken zich tot het clickable prototype dat gebruikt is voor de usability test, waarin gebruikers bijvoorbeeld niet op alle categorieën konden klikken en teksten bij een klik op de knop ingevuld werden.
-                                <br />
-                                <br />
-                                Vier gebruikers gaven aan dat de informatie binnen het formulier hen niet verder heeft geholpen. Hier dient extra aandacht aan besteed te worden. De teksten kunnen verbeterd worden en eventueel kan er een illustratie of kleine animatie toegevoegd worden, die bijdraagt aan het verduidelijken van de opdracht. Ook zou een uitleg pagina, met eventueel een uitleg video, een toevoeging zijn aan de documentatie voor de gebruiker.
-                                <br />
-                                <br />
-                                Als laatste dient er gekeken te worden naar de “Impact meter”. Gebruikers gaven aan dat ze niet weten wat dit inhoudt. Ook hierin kan de documentatie en begeleiding van de gebruiker verbeterd worden.
-                            </p>
-                        </div>
 
-                        <p></p>
+
+
 
                     </article>
                 </section>
@@ -467,20 +611,43 @@ const First_page = () => {
                             <h3>Prototypefase</h3>
                             <img src="/dot_framework/100px-Logo-workshop.png" />
                         </div>
-                        <p>De prototypefase was een leerzame fase. Er is, in overleg met de project-groep, gekozen om gebruik te maken van het NextJS framework. De mogelijkheden van server-side rendering en het genereren van statische webpaginas zijn krachtige tools om een kennis-platform schaalbaar maken zonder veel performance verlies.</p>
-                        <p className="quote">“NextJS is een open-source React front-end framework met functionaliteiten als server-side rendering en het genereren van statische webpaginas.”</p>
-                        <p>In samenwerking met Leo hebben we de FHICT <Link href="/misc/woordenlijst"><span className="underline">GitLab</span></Link> pagina opgezet en de project leden toegevoegd. Wij zijn daarbij de <Link href="/misc/woordenlijst"><span className="underline">maintainers</span></Link> en regelen de <Link href="/misc/woordenlijst"><span className="underline">merge-requests</span></Link>, dit om <Link href="/misc/woordenlijst"><span className="underline">merge-conflicts</span></Link> te voorkomen.</p>
+
+                        <p>
+                            In overleg met de projectgroep is er gekozen om gebruik te maken van het NextJS framework. Dit framework heeft verschillende mogelijkheden om pagina’s en content snel te renderen en laden, zonder dat de gebruiker de web applicatie hoeft te herladen. Verder is er gekozen voor dit framework omdat het goed schaalbaar is, zonder veel performance verlies.
+                        </p>
+                        <p className="quote">
+                            “NextJS is een open-source React front-end framework met functionaliteiten als server-side rendering en het genereren van statische webpaginas.”
+                        </p>
+                        <p>
+                            In samenwerking met Leo hebben we de FHICT GitLab pagina opgezet en de project leden toegevoegd. Wij zijn daarbij de “Maintainers” en regelen de merge-requests, dit om merge-conflicts te voorkomen.
+                        </p>
 
                         <div className={frst_style.research_box}>
                             <div>
-                                <div>
-                                    <p>Bij een gebrek aan beslissing(en) heb ik de taak op me genomen om de development omgeving (layout, routing, pagina’s, etc.) op te zetten. Dit stelde de overige groep-leden in staat om hun pagina’s eenvoudiger te implementeren in een framework dat nieuw is voor iedereen. Daarbij zijn onder andere dynamische pagina’s geïmplementeerd aan de hand van statische (test) data en een dynamische header, met illustraties en een go-back-button.</p>
-                                    <p>Verder is door mij de “Write a Solution” pagina geïmplementeerd. Een formulier waarop gebruikers een oplossing voor klimaatverandering kunnen plaatsen. Hierbij is input van de opdrachtgevers omtrent de categorieën en de mogelijkheid om de impact van een oplossing weer te geven toegevoegd.</p>
-                                    <br />
-                                </div>
+                                <p>
+                                    Bij gebrek aan initiatief binnen de groep ben ik zelfstandig begonnen met het opzetten van de web applicatie. Omdat het een nieuw en voor mij onbekend framework was, heeft er veel tijd in gezet om alles op orde te krijgen.
+                                </p>
+                                <p>
+                                    Er is door mij begonnen met het aanmaken van alle benodigde componenten. Hierbij gaat het om alle pagina’s die opgemaakt zijn vanuit de sitemap van de web applicatie en de losse onderdelen voor de layout van de applicatie (header, meta, menu, etc.). Door het opzetten van de pagina’s door mij kunnen de andere projectleden eenvoudig hun ontwerpen implementeren.
+                                </p>
                             </div>
                             <img src="/illustrations/undraw_Code_review_re_woeb.svg" />
                         </div>
+
+                        <p>
+                            Het gehele layout (dus de web applicatie zonder inhoudt) is ontwikkeld door mij. Deze bestaat uit een layout met een header en menu. De header bevat tevens een illustratie die veranderd per categorie pagina waarop je je bevind.
+                        </p>
+                        <p>
+                            In de flow van het programmeren heb ik mij tevens bezig gehouden met het inladen van data (vanuit een statische json-bestand) op de website, om op deze manier de geplaatste oplossingen van gebruikers weer te geven op de website. Door het toevoegen van deze functionaliteit is het overdragen van het project eenvoudiger. Er hoeft op die manier enkel nog een database verbinding gemaakt te worden, waar vanuit de data opgehaald wordt.
+                        </p>
+                        <p>
+                            Bij het ontwikkelen van de layout is er rekening gehouden met de trend micro-interactions. Verschillende onderdelen zijn geanimeerd en verschijnen als het waren op de pagina. Hierdoor lijkt het alsof de pagina op een vloeiende en rustige manier inlaad.
+                        </p>
+                        <p>
+                            Verder is door mij de “Write a Solution” pagina geïmplementeerd. Een formulier waarop gebruikers een oplossing voor klimaatverandering kunnen plaatsen. Binnen deze pagina is alles functioneel en hoeft enkel nog een database verbinding opgezet te worden.
+                        </p>
+
+                        <br />
 
                     </article>
                 </section>
@@ -513,42 +680,50 @@ const First_page = () => {
 
                     <article>
                         <h2>Product</h2>
-                        <p>Een aangepaste ambitieuze opdracht heeft de mogelijkheid gegeven om een gaaf prototype neer te zetten, gebaseerd op degelijk onderzoek en gevalideerd doormiddel van gebruikersonderzoek. Hieronder volgt een lijst met opgeleverde producten:</p>
+                        <p>
+                            Een aangepaste ambitieuze opdracht heeft de mogelijkheid gegeven om een gaaf prototypen neer te zetten, gebouwd in een voor mij onbekend en nieuw framework, gebaseerd op degelijk onderzoek en gevalideerd doormiddel van gebruikersonderzoek. Hieronder volgt een lijst met de producten die zijn opgeleverd aan de opdrachtgever.
+                        </p>
 
                         <h3>Prototype</h3>
-                        <p>Het belangrijkste opgeleverde product is het prototype. Hierin komen verschillende expertises in terug. Binnen dit product ben ik voornamelijk bezig geweest met het opzetten van de development omgeving: Git en de volledige layout, de “write-a-solution” pagina’s en de git documentatie (Wiki). Dit alles heeft gezorgd voor de front-end en een minimaal functionerend prototype van het kennisplatform voor de Race to Resilience Challenge.</p>
 
-                        <ModalBox>
-                            <button>Demo Video</button>
-                            <div className={frst_style.prototype_container}>
-                                <ReactPlayer
-                                    className={frst_style.prototype_box}
-                                    url='/demo/Front_end_Demo_-_Race_to_Resilience_-_New_Identity_Fontys.mp4'
-                                    playing={isPlaying}
-                                    controls
-                                    config={{
-                                        file: {
-                                            attributes: {
-                                                controlsList: "nodownload"
-                                            }
-                                        }
-                                    }}
-                                />
-                                <div>
-                                    <h3>Demo Video</h3>
-                                    <p>Deze video geeft een demonstratie van het werkende en opgeleverde prototype.</p>
-                                </div>
+                        <div className={frst_style.research_box}>
+                            <div>
+                                <p>
+                                    Het belangrijkste opgeleverde product is het prototype. Het opgeleverde product is een low-fidelity clickable prototype van de front-end code. Ook zitten er al back-end functionaliteiten in verwerkt, zoals het ophalen van oplossingen (van nu uit statische data) en het posten van een oplossing. Voor deze onderdelen hoeft in theorie enkel nog een database opgezet en verbonden te worden voor het verwerken en ophalen van oplossingen.
+                                </p>
+                                <p>
+                                    Alle code staat netjes opgeslagen op de Git Repository, inclusief een uitgebreide Git Wiki met daarop alle benodigde uitleg: Introductie, installatie, informatie per onderdeel van de web applicatie en contact gegevens.
+                                </p>
+                                <p>
+                                    Dit alles heeft gezorgd voor een minimaal functionerend prototype van het kennisplatform voor de Race to Resilience Challenge.
+                                </p>
                             </div>
-                        </ModalBox>
+                            <ReactPlayer
+                                className={frst_style.prototype_box}
+                                url='/demo/Front_end_Demo_-_Race_to_Resilience_-_New_Identity_Fontys.mp4'
+                                playing={isPlaying}
+                                controls
+                                config={{
+                                    file: {
+                                        attributes: {
+                                            controlsList: "nodownload"
+                                        }
+                                    }
+                                }}
+                            />
+                        </div>
 
                         <h3>Onderzoeken</h3>
-                        <p>Tijdens het project zijn er verschillende onderzoeken uitgevoerd om tot het huidige product te komen. Denk daarbij aan het onderzoek naar de deelvragen, waaronder digitale platformen en kwaliteiten van een mobiele. Deze zijn gebundeld in het hoofd onderzoekdocument.</p>
+                        <p>
+                            Tijdens het project zijn er verschillende onderzoeken uitgevoerd om tot het huidige product te komen. Denk daarbij aan het onderzoek naar de deelvragen, waaronder digitale platformen en kwaliteiten van een mobiele. Deze zijn gebundeld in het hoofd onderzoekdocument.
+                        </p>
 
                         <h3>Overdracht</h3>
-                        <p>Om het prototype goed over te dragen aan een potentieel nieuwe groep, is er gezorgd voor goede en duidelijke overdracht documentatie. Er is een bestand opgemaakt met daarin informatie over de bestanden, opleveringen, adviezen en wat er nog gedaan moet worden. Om de overdracht van het prototype en de daarbij horende code te verbeteren is er door mij een Wiki aangemaakt op de <Link href="/misc/woordenlijst"><span className="underline">GitLab</span></Link> <Link href="/misc/woordenlijst"><span className="underline">repo</span></Link>. Hierin staat het gehele proces, inclusief documenten gelinkt, de verschillende ontwikkelingen en wat er nog gedaan moet en kan worden (beschreven per pagina). Ik hoop hiermee de (eventueel) volgende groep van voldoende informatie te hebben voorzien.</p>
+                        <p>
+                            Om het prototype goed over te dragen aan een potentieel nieuwe groep, is er gezorgd voor goede en duidelijke overdracht documentatie. Er is een bestand opgemaakt met daarin informatie over de bestanden, opleveringen, adviezen en wat er nog gedaan moet worden. Om de overdracht van het prototype en de daarbij horende code te verbeteren is er door mij een Wiki aangemaakt op de GitLab repo. Hierin staat het gehele proces, inclusief documenten gelinkt, de verschillende ontwikkelingen en wat er nog gedaan moet en kan worden (beschreven per pagina). Ik hoop hiermee de (eventueel) volgende groep van voldoende informatie te hebben voorzien.
+                        </p>
 
                     </article>
-
                 </section>
 
 
@@ -557,18 +732,24 @@ const First_page = () => {
 
                     <article>
                         <h2>Conclusie</h2>
-                        <h3>“HOE ONTWIKKEL JE EEN GEBRUIKSVRIENDELIJKE MOBIELE INTERFACE VOOR EEN KENNISPLATFORM, WAARBIJ REKENING WORDT GEHOUDEN MET HET VOLGEN DELEN EN REAGEREN OP USER-GENERATED CONTENT?”</h3>
-                        <p>Het doel van de opdracht was om een kennisplatform te ontwerpen en uit te werken tot, minimaal, een functionerende prototype. Dit doel is bereikt door de drie overkoepelende processen te doorlopen.</p>
+
+                        <h3 className="quote">
+                            “HOE ONTWIKKEL JE EEN GEBRUIKSVRIENDELIJKE MOBIELE INTERFACE VOOR EEN KENNISPLATFORM, WAARBIJ REKENING WORDT GEHOUDEN MET HET VOLGEN DELEN EN REAGEREN OP USER-GENERATED CONTENT?”
+                        </h3>
+                        <p>
+                            Het doel van de opdracht was om een kennisplatform te ontwerpen en uit te werken tot, minimaal, een functionerend prototype. Dit doel is bereikt door de drie overkoepelende processen te doorlopen.
+                        </p>
+
                         <p>
                             In het <b>analyseproces</b> is er georiënteerd naar de opdracht, zijn er literatuuronderzoeken gedaan naar de deelvragen, is er UX onderzoek gedaan naar huidige platformen en is er een analyse gemaakt van de mobiele trends.
-                            <br />
-                            <br />
-                            In het <b>realisatieproces</b> is er gebrainstormd en zijn er schetsen gemaakt. Bij de development is er gebruik gemaakt van het NextJS framework om een <Link href="/misc/woordenlijst"><span className="underline">low-fidelity</span></Link> prototype te realiseren waarin enkele van de benodigde back-end functionaliteiten al werkzaam zijn.
-                            <br />
-                            <br />
+                        </p>
+                        <p>
+                            In het <b>realisatieproces</b> is er gebrainstormd en zijn er schetsen gemaakt. Bij de development is er gebruik gemaakt van het NextJS framework om een low-fidelity prototype te realiseren waarin enkele van de benodigde back-end functionaliteiten al werkzaam zijn.
+                        </p>
+                        <p>
                             In het <b>meetproces</b> is er gekeken naar het ontwerp en de functionaliteiten van de “Write a solution” pagina’s doormiddel van een online gebruikersonderzoek. De resultaten hieruit zijn positief, zijn verder geanalyseerd en vormen een advies in de overdracht.
                         </p>
-                        <p>Er kan dus geconcludeerd worden dat het realiseren van een minimaal functionerende prototype is behaald en dat er een gebruiksvriendelijke mobiele interface is ontwikkeld.</p>
+
                     </article>
 
                 </section>
@@ -579,8 +760,19 @@ const First_page = () => {
 
                     <article>
                         <h2>Reflectie</h2>
-                        <p>Binnen dit project heb ik gewerkt aan een hele ontwikkel-cycles. Van het onderzoeken, designen en testen tot de development. Daarnaast ben ik ook bezig geweest met het managen van het project en de project groep. Ik voelde mij verantwoordelijk voor de voortgang en samenwerking binnen de groep. Hiervoor heb ik me sterk gemaakt en naar aanleiding van een gesprek hebben we goede en duidelijke afspraken gemaakt. Het project en de communicatie verliep goed daarna en daar bij ik enorm tevreden mee.</p>
-                        <p>Voor de development heb ik, in samenspraak met de projectgroep, gekozen voor een vrij nieuw framework, genaamd NextJS. Voorheen was ik niet bekent met het framework en ik heb veel tijd gestopt in het ontwikkelen van de benodigde vaardigheden om goed gebruik te maken van dit framework. Hiermee toon ik aan dat ik een leergierige en harde werker ben die graag experimenteert en zichzelf ontwikkeld.</p>
+
+                        <p>
+                            Binnen dit project ben k bezig geweest met de gehele ontwikkeling-cycles. Van het onderzoeken, ontwerpen, testen en toepassen tot aan het managen van het project en de projectgroep.
+                        </p>
+                        <p>
+                            Tijdens het project heb ik me verantwoordelijk gevoeld voor de voortgang en de samenwerking binnen de projectgroep. Ik heb me hiervoor sterk gemaakt en naar aanleiding van een door mij aangevraagd gesprek hebben we als groep zijnde duidelijke afspraken gemaakt in de vorm van een samenwerking contract. Verder is er afgesproken dagelijks om 09:30 een opstart moment te hebben en wekelijks op vrijdagmiddag een afsluiting. Ook wordt er elke week een nieuwe projectleider aangesteld, die de voortgang bewaakt en het Trello-bord met alle taken bijhoudt. De communicatie en samenwerking verliep daarna goed en daar ben ik erg tevreden mee.
+                        </p>
+                        <p>
+                            Binnen dit semester wilde ik graag een nieuw en interessant framework leren en daarmee mijn web-development skills verbeteren. In samenspraak met de projectgroep is er gekozen voor het framework NextJS. Voorheen was ik niet bekent met het framework en ik heb veel tijd gestopt in het ontwikkelen van de benodigde vaardigheden om goed gebruik te maken van dit framework. Deze portfolio website is tevens ontwikkeld in het framework. Hiermee toon ik aan dat ik een leergierige en harde werker ben die graag experimenteert en zichzelf ontwikkeld.
+                        </p>
+                        <p>
+                            In de toekomst leer ik graag verder in dit framework. Dit is een toegevoegde waarde op mijn skillset en geeft mij (hopelijk) betere kansen op een goede afstudeer stage en latere een baan in de front-end development.
+                        </p>
                     </article>
 
                 </section>
