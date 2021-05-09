@@ -372,7 +372,7 @@ const First_page = () => {
                             Binnen de conceptfase zijn de verschillende pagina’s (aan de hand van de sitemap) verdeeld over de groepsleden. Mijn eerste ontwerpen hebben betrekking tot het aanmaken van een nieuwe klimaat oplossing, deze pagina’s worden in dit portfolio ook wel de “Write a Solution” pagina’s genoemd.
                         </p>
                         <p>
-                            Voordat er begonnen is met het schetsen van de eerste ontwerpen is er een trendanalyse met betrekking tot de huidige mobiele trends gemaakt. Uit deze trendanalyse zijn relevante trends geselecteerd die toepasbaar zijn op dit project.
+                            Voordat er begonnen is met het schetsen van de eerste ontwerpen zijn er relevante prospectieve trendanalyses van derde partijen (met betrekking tot mobiele designs) geanalyseerd doormiddel van de "Future Funnel" methode. Uit deze trendanalyse zijn relevante trends geselecteerd die toepasbaar zijn op dit project.
                         </p>
 
                         <div className={frst_style.conclusion_research_01}>
