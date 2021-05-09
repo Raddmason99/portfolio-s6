@@ -169,7 +169,7 @@ const First_page = () => {
                             <img src="/dot_framework/100px-Logo-library.png" />
                         </div>
                         <p>
-                            Tijdens de oriëntatiefase is er verdieping gezocht in de opdracht. Een kennisplatform maken met betrekking tot oplossingen voor de klimaat verandering. Om meer inzicht te krijgen in de opdracht is er een individuele opdracht analyse gemaakt. Aan de hand van deze analyse zijn de hoofd- en deelvragen opgesteld.
+                            Tijdens de oriëntatiefase is er verdieping gezocht in de opdracht. Een kennisplatform maken met betrekking tot oplossingen voor de klimaat verandering. Om meer inzicht te krijgen in de opdracht is er een <Link href="/documents/Individuele_Analyse_Opdracht.pdf"><u>individuele opdracht analyse</u></Link> gemaakt. Aan de hand van deze analyse zijn de hoofd- en deelvragen opgesteld.
                         </p>
                     </article>
                 </section>
@@ -226,7 +226,7 @@ const First_page = () => {
                         <p>
                             Om de deelvraag te kunnen beantwoorden is er eerst in de breedte gekeken naar digitale platformen in zijn algemene zin. Hierin is gekeken naar de definitie, soorten, voorbeelden en onderdelen van digitale platformen. Vervolgens is er verdieping gezocht naar wat de definitie van een kennis-platform is en wat de kenmerken en kernpunten zijn.
                         </p>
-                        <div className={frst_style.conclusion_research_01}>
+                        <div id="conclusie_kennisplatform" className={frst_style.conclusion_research_01}>
                             <div className={frst_style.conclusion_research_01_title}>
                                 <h3>Conclusie - Wat houdt een kennisplatform in?</h3>
                                 <p>BIEB - Literatuur onderzoek</p>
@@ -250,7 +250,7 @@ const First_page = () => {
                         <p>
                             In dit literatuuronderzoek is er gekeken naar de design principes van mobiele interfaces. Hiervoor is er onderzoek gedaan naar de verschillende mobiele schermen/pagina’s relevant zijn en wat de inhoudt betreft. Verder is er gekeken naar welke design principes van belang zijn. Ook is er aandacht besteed aan de psychologie achter een mobiel ontwerp.
                         </p>
-                        <div className={frst_style.conclusion_research_01}>
+                        <div id="conclusie_mobieleinterface" className={frst_style.conclusion_research_01}>
                             <div className={frst_style.conclusion_research_01_title}>
                                 <h3>Conclusie - Hoe vertaal je het concept naar een mobiele interface?</h3>
                                 <p>BIEB - Literatuur onderzoek</p>
@@ -346,7 +346,7 @@ const First_page = () => {
                                     Om te starten is er door mij een brainstorm sessie met de projectgroep opgezet. Hiervoor is een brainstorm opzet opgemaakt. Doormiddel van de brainstorm 101 methode zijn we in brede zin onderdelen en elementen van het kennisplatform gaan bedenken. Vervolgens zijn doormiddel van dot-voting de belangrijkste elementen uit de brainstorm verzameld. Klik <u onClick={() => toggleBrainstorm(!showBrainstorm)}>hier</u> voor de brainstorm resultaten.
                                 </p>
                                 <p>
-                                    De resultaten van de brainstorm geven inzicht in de benodigdheden voor de web applicatie. Uit onderzoek naar de kwaliteiten van een mobiele interface werd het belang van het uitplannen van de verschillende pagina’s benadrukt. Om deze reden is er een sitemap opgezet met daarop alle pagina’s en ‘routing’ binnen de web applicatie. Klik <u onClick={() => toggleSitemap(!showSitemap)}>hier</u> voor de sitemap.
+                                    De resultaten van de brainstorm geven inzicht in de benodigdheden voor de web applicatie. Uit onderzoek naar de kwaliteiten van een mobiele interface werd het belang van het uitplannen van de verschillende pagina’s benadrukt. Om deze reden en vanuit de brainstorm is er een sitemap opgezet met daarop alle pagina’s en ‘routing’ binnen de web applicatie. Klik <u onClick={() => toggleSitemap(!showSitemap)}>hier</u> voor de sitemap.
                                 </p>
                             </div>
                             <img src="/illustrations/undraw_mobile_development_8gyo.svg" />
