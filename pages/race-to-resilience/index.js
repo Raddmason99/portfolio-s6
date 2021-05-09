@@ -346,7 +346,7 @@ const First_page = () => {
                                     Om te starten is er door mij een brainstorm sessie met de projectgroep opgezet. Hiervoor is een brainstorm opzet opgemaakt. Doormiddel van de brainstorm 101 methode zijn we in brede zin onderdelen en elementen van het kennisplatform gaan bedenken. Vervolgens zijn doormiddel van dot-voting de belangrijkste elementen uit de brainstorm verzameld. Klik <u onClick={() => toggleBrainstorm(!showBrainstorm)}>hier</u> voor de brainstorm resultaten.
                                 </p>
                                 <p>
-                                    De resultaten van de brainstorm geven inzicht in de benodigdheden voor de web applicatie. Uit onderzoek naar de kwaliteiten van een mobiele interface werd het belang van het uitplannen van de verschillende pagina’s benadrukt. Om deze reden en vanuit de brainstorm is er een sitemap opgezet met daarop alle pagina’s en ‘routing’ binnen de web applicatie. Klik <u onClick={() => toggleSitemap(!showSitemap)}>hier</u> voor de sitemap.
+                                    De resultaten van de brainstorm geven inzicht in de benodigdheden voor de web applicatie. Uit onderzoek naar de kwaliteiten van een mobiele interface werd het belang van het uitplannen van de verschillende pagina’s benadrukt. Om deze reden is er een sitemap opgezet met daarop alle pagina’s en ‘routing’ binnen de web applicatie. Klik <u onClick={() => toggleSitemap(!showSitemap)}>hier</u> voor de sitemap.
                                 </p>
                             </div>
                             <img src="/illustrations/undraw_mobile_development_8gyo.svg" />
@@ -487,7 +487,7 @@ const First_page = () => {
                         }
 
                         <p>
-                            In de nieuwe iteraties op het ontwerp heb ik naast mijn “Write a solution” pagina’s ook de layout van de web applicatie ontworpen. Er is daarbij rekening gehouden met de eerdere gebruikte trends, de onderzochte design principes en de resultaten uit de userflow en heuristische analyse.
+                            In de nieuwe iteraties op het ontwerp heb ik naast mijn “Write a solution” pagina’s ook de layout van de web applicatie ontworpen. Er is daarbij rekening gehouden met de eerdere gebruikte trends, de onderzochte design principes, de features uit de eerste brainstorm en de resultaten uit de userflow en heuristische analyse.
                         </p>
                         <p>
                             De design principes eenvoud, zichtbaarheid en feedback zijn gebruikt in het ontwerpen van de nieuwe iteratie. Toepassingen hiervan zijn te vinden in het menu, waarbij ervoor gekozen is maar drie elementen te plaatsen en bijvoorbeeld het profiel knopje rechts bovenin te plaatsen. Verder zijn de “Write a Solution” pagina’s opgedeeld in verschillende stappen om eenvoud en zichtbaarheid te vergroten van de individuele onderdelen.
@@ -499,7 +499,7 @@ const First_page = () => {
                             Naar aanleiding van de userflow analyse is er een opzichtige knop in de layout gekomen waarmee een gebruiker ten alle tijden een nieuwe oplossing kan schrijven.
                         </p>
                         <p>
-                            En naar aanleiding van de conclusie uit de heuristische analyse is er meer documentatie gekomen voor de gebruiker. Dit is ontworpen in de vorm van vraagtekens per onderdeel waarmee er een kortbondige uitleg tevoorschijn komt voor de gebruiker.
+                            En naar aanleiding van een van de features uit de eerste brainstorm en de conclusie uit de heuristische analyse is er meer documentatie gekomen voor de gebruiker. Dit is ontworpen in de vorm van vraagtekens per onderdeel waarmee er een kortbondige uitleg tevoorschijn komt voor de gebruiker.
                         </p>
 
                         <div className={frst_style.mockup_container}>
