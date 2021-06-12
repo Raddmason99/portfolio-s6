@@ -1,20 +1,34 @@
 //import NextJS dependencies
 import Head from 'next/head'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 //import styling
-import sec_style from '../../styles/Second.module.scss'
-import err_style from '../../styles/Error.module.scss'
+import article_style from '../../../styles/Article.module.scss'
+import err_style from '../../../styles/Error.module.scss'
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 //construct return page-elements
-const Second_page = () => {
+const article = () => {
+
+    //setup routing
+    const router = useRouter()
+    const routePath = router.asPath.split('#')[1]
+
     return (
         <>
             <Head>
-                <title></title>
+                <title>Bierens Group | Vierde Iteratie</title>
             </Head>
             <main className="body_container">
 
+                <div className={article_style.nav_container}>
+                    <nav className={article_style.nav_block}>
+                        <p onClick={() => router.back()}><FontAwesomeIcon icon={faArrowLeft} />&nbsp;Back</p>
+                    </nav>
+                </div>
 
                 <div className={err_style.error_container}>
                     <img className={err_style.error_image}
@@ -32,4 +46,4 @@ const Second_page = () => {
     );
 }
 //export page-elements
-export default Second_page;
+export default article;

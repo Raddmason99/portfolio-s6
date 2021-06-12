@@ -23,7 +23,7 @@ const Header = () => {
     } else {
         header_element = <nav className={hdr_style.nav_block}>
             <Link href="/race-to-resilience"><p>Race-to-Resilience</p></Link>
-            <Link href="/second"><p>Second Part</p></Link>
+            <Link href="/bierens-group"><p>Bierens-group</p></Link>
         </nav>
     }
 

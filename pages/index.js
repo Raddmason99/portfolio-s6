@@ -28,7 +28,7 @@ const Home_page = () => {
           <div className={home_style.nav_container}>
             <nav className={home_style.nav_block}>
               <Link href="/race-to-resilience"><p>Race-to-Resilience</p></Link>
-              <Link href="/second"><p>Second Part</p></Link>
+              <Link href="/bierens-group"><p>Bierens-group</p></Link>
             </nav>
           </div>
         </section>
