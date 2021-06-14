@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 
 //import styling
 import article_style from '../../../styles/Article.module.scss'
-import err_style from '../../../styles/Error.module.scss'
+import sec_style from '../../../styles/Second.module.scss'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -30,16 +30,25 @@ const article = () => {
                     </nav>
                 </div>
 
-                <div className={err_style.error_container}>
-                    <img className={err_style.error_image}
-                        src='/illustrations/undraw_Notify_re_65on.svg'
-                    />
-                    <div className={err_style.error_text}>
-                        <h2>Wow! Hier valt nog niks te zien!</h2>
-                        <p>Deze pagina wordt binnenkort gevuld met nogmeer leesvermaak!</p>
-                    </div>
+                <div className={article_style.art_container}>
+                    <article>
+                        <h2>Online Experience</h2>
+                        <p>Na gesprek met de opdracht gever en de opdracht "Ontwikkel een online experience</p>
+                        <h3>Aanpak</h3>
+                        <p></p>
+                        <h3>Resultaat</h3>
+                        <p></p>
+                        <h3>Conclusie</h3>
+                        <p></p>
+                        <br />
+                        <a className={sec_style.inbetween_button02}
+                            href="/documents/Project_document.pdf"
+                            target="_blank">
+                            Eindproduct
+                        </a>
+                    </article>
+                    <img src="/illustrations/undraw_design_team_af2y.svg" />
                 </div>
-
 
             </main>
         </>

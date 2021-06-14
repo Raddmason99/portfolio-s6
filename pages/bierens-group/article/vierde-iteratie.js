@@ -30,16 +30,25 @@ const article = () => {
                     </nav>
                 </div>
 
-                <div className={err_style.error_container}>
-                    <img className={err_style.error_image}
-                        src='/illustrations/undraw_Notify_re_65on.svg'
-                    />
-                    <div className={err_style.error_text}>
-                        <h2>Wow! Hier valt nog niks te zien!</h2>
-                        <p>Deze pagina wordt binnenkort gevuld met nogmeer leesvermaak!</p>
-                    </div>
+                <div className={article_style.art_container}>
+                    <article>
+                        <h2>Vierde Iteratie</h2>
+                        <p></p>
+                        <h3>Aanpak</h3>
+                        <p></p>
+                        <h3>Resultaat</h3>
+                        <p></p>
+                        <h3>Conclusie</h3>
+                        <p></p>
+                        <br />
+                        <a className={sec_style.inbetween_button02}
+                            href="/documents/Project_document.pdf"
+                            target="_blank">
+                            Eindproduct
+                        </a>
+                    </article>
+                    <img src="/illustrations/undraw_design_team_af2y.svg" />
                 </div>
-
 
             </main>
         </>

@@ -77,3 +77,9 @@
 .nav_block_selected {
     border-bottom: solid 2px $gray_04;
 }
+
+.art_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px;
+}

@@ -83,7 +83,7 @@ const Second_page = () => {
                         <Link href="/bierens-group/article/online-experience">
                             <div className={sec_style.analysis_boxer}>
                                 <h3>Online Experience</h3>
-                                <img src="/illustrations/undraw_the_search_s0xf.svg" />
+                                <img src="/illustrations/undraw_Freelancer_re_irh4.svg" />
                             </div>
                         </Link>
                     </div>
@@ -92,7 +92,7 @@ const Second_page = () => {
                         <Link href="/bierens-group/article/trend-analyse">
                             <div className={sec_style.analysis_boxer}>
                                 <h3>Trend Analyse</h3>
-                                <img src="/illustrations/undraw_the_search_s0xf.svg" />
+                                <img src="/illustrations/undraw_mobile_ux_o0e1.svg" />
                             </div>
                         </Link>
                     </div>
@@ -101,7 +101,7 @@ const Second_page = () => {
                         <Link href="/bierens-group/article/eerste-iteratie">
                             <div className={sec_style.analysis_boxer}>
                                 <h3>Eerste Iteratie</h3>
-                                <img src="/illustrations/undraw_the_search_s0xf.svg" />
+                                <img src="/illustrations/undraw_mobile_development_8gyo.svg" />
                             </div>
                         </Link>
                     </div>
@@ -110,7 +110,7 @@ const Second_page = () => {
                         <Link href="/bierens-group/article/samenvatting-brainstorm">
                             <div className={sec_style.analysis_boxer}>
                                 <h3>Samenvatting Brainstorm</h3>
-                                <img src="/illustrations/undraw_the_search_s0xf.svg" />
+                                <img src="/illustrations/undraw_teamwork_hpdk.svg" />
                             </div>
                         </Link>
                     </div>
@@ -119,7 +119,7 @@ const Second_page = () => {
                         <Link href="/bierens-group/article/tweede-iteratie">
                             <div className={sec_style.analysis_boxer}>
                                 <h3>Tweede Iteratie</h3>
-                                <img src="/illustrations/undraw_the_search_s0xf.svg" />
+                                <img src="/illustrations/undraw_Web_developer_re_h7ie.svg" />
                             </div>
                         </Link>
                     </div>
@@ -128,7 +128,7 @@ const Second_page = () => {
                         <Link href="/bierens-group/article/derde-iteratie">
                             <div className={sec_style.analysis_boxer}>
                                 <h3>Derde Iteratie</h3>
-                                <img src="/illustrations/undraw_the_search_s0xf.svg" />
+                                <img src="/illustrations/undraw_fixing_bugs_w7gi.svg" />
                             </div>
                         </Link>
                     </div>
@@ -146,7 +146,7 @@ const Second_page = () => {
                         <Link href="/bierens-group/article/gebruikersonderzoek-twee">
                             <div className={sec_style.analysis_boxer}>
                                 <h3>Gebruikersonderzoek #2</h3>
-                                <img src="/illustrations/undraw_the_search_s0xf.svg" />
+                                <img src="/illustrations/undraw_Scrum_board_re_wk7v.svg" />
                             </div>
                         </Link>
                     </div>
@@ -155,7 +155,7 @@ const Second_page = () => {
                         <Link href="/bierens-group/article/vierde-iteratie">
                             <div className={sec_style.analysis_boxer}>
                                 <h3>Vierde Iteratie</h3>
-                                <img src="/illustrations/undraw_the_search_s0xf.svg" />
+                                <img src="/illustrations/undraw_Code_review_re_woeb.svg" />
                             </div>
                         </Link>
                     </div>
@@ -164,7 +164,7 @@ const Second_page = () => {
                         <Link href="/bierens-group/article/business-canvas">
                             <div className={sec_style.analysis_boxer}>
                                 <h3>Business Canvas</h3>
-                                <img src="/illustrations/undraw_the_search_s0xf.svg" />
+                                <img src="/illustrations/undraw_All_the_data_re_hh4w.svg" />
                             </div>
                         </Link>
                     </div>
@@ -173,7 +173,7 @@ const Second_page = () => {
                         <Link href="/bierens-group/article/marketing-strategie">
                             <div className={sec_style.analysis_boxer}>
                                 <h3>Marketing Strategie</h3>
-                                <img src="/illustrations/undraw_the_search_s0xf.svg" />
+                                <img src="/illustrations/undraw_Analytics_re_dkf8.svg" />
                             </div>
                         </Link>
                     </div>
