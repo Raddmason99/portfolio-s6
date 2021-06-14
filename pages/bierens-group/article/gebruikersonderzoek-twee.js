@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 
 //import styling
 import article_style from '../../../styles/Article.module.scss'
-import err_style from '../../../styles/Error.module.scss'
+import sec_style from '../../../styles/Second.module.scss'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
