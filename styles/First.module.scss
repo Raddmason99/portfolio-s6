@@ -608,6 +608,7 @@ display: block;
     align-items: flex-start;
     justify-content: space-evenly;
     width: 80vw;
+    max-width: 90vw;
 
     @include media( "retina" ){
 
@@ -634,6 +635,7 @@ display: block;
 .prototype_box video {
     max-height: 500px;
     width: auto !important;
+    max-width: 90vw !important;
 }
 
 .spacing {

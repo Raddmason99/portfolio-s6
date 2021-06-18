@@ -33,13 +33,16 @@ const article = () => {
                 <div className={article_style.art_container}>
                     <article>
                         <h2>Trend Analyse</h2>
-                        <p></p>
+                        <p>Na het doen van literatuuronderzoek naar het hoofd onderwerp, online experience, is er een trend analyse uitgevoerd om te achterhalen wat de huidige trends zijn met betrekking tot web development. Dit onderzoek geeft meer inzicht in de trends en technieken die eventueel te gebruiken zijn voor het project.</p>
                         <h3>Aanpak</h3>
-                        <p></p>
+                        <p>Verschillende interessante trends binnen web-development zijn doormiddel van literatuuronderzoek verzameld en onderzocht. Vervolgens zijn hier de meest relevante trends voor het project van Bierens group verzameld en ge-evalueerd. Verder is er een trend canvas gemaakt van de meest relevante trend. Deze trend, animatie, bestaat uit twee relevante trends: micro-animatie en parallex effect.</p>
                         <h3>Resultaat</h3>
-                        <p></p>
+                        <p>Animaties en Augmented Reality zijn relevante trends voor het project van Bierens group. Echter valt Augmented Reality niet binnen de scope van het project. Het is een complexe techniek, waarbij specifieke hardware en software tools voor nodig zijn. Er is daarom gekozen voor de twee trends binnen Animatie: Parallax effect en Micro-animaties.
+                            Deze twee trends worden samen gevoegd in het trend canvas Animatie. Het is een trend die al door grote bedrijven en platformen als Facebook, Twitter en Apple wordt toegepast. Denk hierbij aan het inladen van generated content of het weergeven van product(en).
+                            Er zijn echter nog veel statische websites waarbij de gebruikers ervaring verbeterd kan worden doormiddel van animatie. Dit kan eenvoudig toegepast worden op action-call buttons en feedback elementen, maar ook op product elementen.
+                        </p>
                         <h3>Conclusie</h3>
-                        <p></p>
+                        <p>Uit de trend analyse zijn relevante en toepasbare web technieken naar voren gekomen. Aan de hand van deze trends is een concept en technisch prototype ontwikkeld en gepresenteerd aan Bierens Group.</p>
                         <br />
                         <a className={sec_style.inbetween_button02}
                             href="/documents/Project_document.pdf"
