@@ -146,7 +146,7 @@ const Second_page = () => {
                         <Link href="/bierens-group/article/vierde-iteratie">
                             <div className={sec_style.analysis_boxer}>
                                 <h3>Vierde Iteratie</h3>
-                                <img src="/illustrations/undraw_Code_review_re_woeb.svg" />
+                                <img src="/illustrations/undraw_Web_developer_re_h7ie.svg" />
                             </div>
                         </Link>
                     </div>
