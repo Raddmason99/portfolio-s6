@@ -33,18 +33,19 @@ const article = () => {
                 <div className={article_style.art_container}>
                     <article>
                         <h2>Marketing Strategie</h2>
-                        <p></p>
+                        <p>Op basis van de Business Model Canvas is er een Marketing strategie ontwikkeld om het bedrijf en zijn product onder de man te brengen. In de strategie worden er een voorstel gemaakt voor mogelijk middelen, om het product (en het bedrijf) op de markt te zetten.</p>
                         <h3>Aanpak</h3>
-                        <p></p>
+                        <p>Het product en de doelgroep zijn beschreven. Vervolgens zijn er aan de hand van het business model canvas doelstelling(en) beschreven. Aan de hand van literatuuronderzoek is de propositie en de positionering in de markt omschreven.
+                            Er is vervolgens gekeken naar mogelijke concurrenten en hun aanpak en waar er dus eventueel kansen liggen.
+                            Door meer literatuuronderzoek is er een marketing strategie beschreven, gebaseerd op verschillende middelen en kanalen.
+                        </p>
                         <h3>Resultaat</h3>
-                        <p></p>
-                        <h3>Conclusie</h3>
-                        <p></p>
+                        <p>Het resultaat is een multi-channel marketing strategie, waarbij er voornamelijk gefocust wordt op het opbouwen van een klanten bestand en het promoten van bedrijf en product doormiddel van de Google Ranking, email-marketing en adverteren via Google Ads en Facebook Ads.</p>
                         <br />
                         <a className={sec_style.inbetween_button02}
-                            href="/documents/Project_document.pdf"
+                            href="/documents/Marketing_Strategie.pdf"
                             target="_blank">
-                            Eindproduct
+                            Marketing Strategie
                         </a>
                     </article>
                     <img src="/illustrations/undraw_design_team_af2y.svg" />

@@ -49,9 +49,9 @@ const article = () => {
                         </p>
                         <br />
                         <a className={sec_style.inbetween_button02}
-                            href="/documents/Project_document.pdf"
+                            href="/documents/Samenvatting_Brainstorm.pdf"
                             target="_blank">
-                            Eindproduct
+                            Samenvatting Brainstorm
                         </a>
                     </article>
                     <img src="/illustrations/undraw_design_team_af2y.svg" />

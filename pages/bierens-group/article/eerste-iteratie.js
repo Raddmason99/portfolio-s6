@@ -42,16 +42,16 @@ const article = () => {
                             Vervolgens is het technische prototype gepresenteerd aan de opdrachtgever.
                         </p>
                         <h3>Resultaat</h3>
-                        <p>LINK NAAR PROTOTYPE</p>
+                        <p>Het resultaat is een minimaal functionerend prototype, waarbij doormiddel van een presentatie het benodigde concept verder verduidelijk wordt.</p>
                         <h3>Conclusie</h3>
                         <p>Door gebrek aan tijd is het een minimaal prototype geworden. Er heeft (te)veel tijd gezeten in het uitzoeken van de werking van deze animatie technieken.
                             Doormiddel van presentatie en uitleg is het concept toch goed overgekomen op de opdrachtgever. De uitkomsten van de concept presentatie(s) zijn te vinden bij Samenvatting Brainstorm.
                         </p>
                         <br />
                         <a className={sec_style.inbetween_button02}
-                            href="/documents/Project_document.pdf"
+                            href="http://demo.fluxpuck.com/concept.html"
                             target="_blank">
-                            Eindproduct
+                            Eerste Iteratie
                         </a>
                     </article>
                     <img src="/illustrations/undraw_design_team_af2y.svg" />

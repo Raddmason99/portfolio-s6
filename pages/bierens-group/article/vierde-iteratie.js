@@ -33,18 +33,20 @@ const article = () => {
                 <div className={article_style.art_container}>
                     <article>
                         <h2>Vierde Iteratie</h2>
-                        <p></p>
+                        <p>Naar aanleiding van de derde iteratie en de resultaten van individuele gebruikersonderzoeken, zijn de verschillende deelproducten, of beter gezegd deel-prototypen, samengevoegd tot één prototype.</p>
                         <h3>Aanpak</h3>
-                        <p></p>
+                        <p>Door groepsgenoten is er vanuit één eerste scene (de “Garden”) een development omgeving opgezet in FHICT Gitlab. Vanuit hier heb ik de omgeving gecloned en heb ik mijn ruimte toegevoegd aan het prototype. Hierbij heb ik enkel nieuwe hotspots aangemaakt, die doorlussen naar volgende en vorige scenes.
+                            Vervolgens is doormiddel van Photoshop de 360-graden/panorama afbeelding aangepast, zijn de kleuren verbeterd en zijn er nieuwe highlights toegepast. Ondanks mijn gebruikersonderzoek, is er binnen het project gekozen voor deze nieuwe highlights. Vervolgens is de nieuwe afbeelding ingelaten, zijn mijn cijfers veranderd voor lege, klikbare elementen en is het in zijn geheel gepusht naar de Git omgeving.
+                        </p>
                         <h3>Resultaat</h3>
-                        <p></p>
+                        <p>Het resultaat is een functionerend prototype van het volledige concept. </p>
                         <h3>Conclusie</h3>
-                        <p></p>
+                        <p>Er ontbreekt in deze iteratie nog een plattegrond, waarop de gebruiker kan zien in welke ruimte hij of zij zich bevind. Hierbij kan eventueel aangegeven worden wat elke kamer inhoudt, om zo een verwachting te scheppen voor gebruiker.</p>
                         <br />
                         <a className={sec_style.inbetween_button02}
-                            href="/documents/Project_document.pdf"
+                            href="http://demo.fluxpuck.com/demo4/index.html"
                             target="_blank">
-                            Eindproduct
+                            Vierde Iteratie
                         </a>
                     </article>
                     <img src="/illustrations/undraw_design_team_af2y.svg" />

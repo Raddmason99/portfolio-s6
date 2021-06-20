@@ -125,6 +125,15 @@ const Second_page = () => {
                     </div>
 
                     <div className={sec_style.analysis_box}>
+                        <Link href="/bierens-group/article/gebruikersonderzoek-een">
+                            <div className={sec_style.analysis_boxer}>
+                                <h3>Gebruikersonderzoek #1</h3>
+                                <img src="/illustrations/undraw_the_search_s0xf.svg" />
+                            </div>
+                        </Link>
+                    </div>
+
+                    <div className={sec_style.analysis_box}>
                         <Link href="/bierens-group/article/derde-iteratie">
                             <div className={sec_style.analysis_boxer}>
                                 <h3>Derde Iteratie</h3>
@@ -134,10 +143,10 @@ const Second_page = () => {
                     </div>
 
                     <div className={sec_style.analysis_box}>
-                        <Link href="/bierens-group/article/gebruikersonderzoek-een">
+                        <Link href="/bierens-group/article/vierde-iteratie">
                             <div className={sec_style.analysis_boxer}>
-                                <h3>Gebruikersonderzoek #1</h3>
-                                <img src="/illustrations/undraw_the_search_s0xf.svg" />
+                                <h3>Vierde Iteratie</h3>
+                                <img src="/illustrations/undraw_Code_review_re_woeb.svg" />
                             </div>
                         </Link>
                     </div>
@@ -152,9 +161,9 @@ const Second_page = () => {
                     </div>
 
                     <div className={sec_style.analysis_box}>
-                        <Link href="/bierens-group/article/vierde-iteratie">
+                        <Link href="/bierens-group/article/vijfde-iteratie">
                             <div className={sec_style.analysis_boxer}>
-                                <h3>Vierde Iteratie</h3>
+                                <h3>Vijfde Iteratie</h3>
                                 <img src="/illustrations/undraw_Code_review_re_woeb.svg" />
                             </div>
                         </Link>

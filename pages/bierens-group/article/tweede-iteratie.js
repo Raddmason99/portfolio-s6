@@ -37,18 +37,22 @@ const article = () => {
                         <h3>Aanpak</h3>
                         <p>Er is op locatie een 360-graden/panorama afbeelding gemaakt van de Comic Wall ruimte. Deze afbeelding is vervolgens in panorama bewerkt in photoshop om de verkeerde stitches (waar de afbeelding aan elkaar geplakt wordt) te corrigeren.
                             Vervolgens is doormiddel van het pannellum framework hotspots op de 360-graden/panorama afbeeldingen geplaatst en zijn deze hotspots gekoppeld aan html overlay elementen met daarop informatie omtrend de 7 voordelen van Bierens Group advocaten incasso. Het pannellum framework is gekozen uit een kort onderzoek van een van de projectleden, waarbij het naar voren kwam als licht (voor de inladen op de website) en simpel in gebruik en programmeren.
+                            Er zijn twee versies ontwikkeld. Één versie waarbij er gebruik gemaakt wordt van cirkels bij de hotspots, en een tweede versie waarbij er gebruik gemaakt word van cijfers.
                         </p>
                         <h3>Resultaat</h3>
-                        <p>Het resultaat is een minimaal werkend prototype.
-                            LINK NAAR PROTOTYPE
-                        </p>
+                        <p>Het resultaat is twee versies van een minimaal werkend prototype.</p>
                         <h3>Conclusie</h3>
-                        <p>Het is een werkend prototype. Alle benodigde functionaliteiten zitten in het prototypen ingebouwd. De volgende stap was het testen van verschillende versies doormiddel van een A-B gebruikerstest.</p>
+                        <p>De tweede iteratie betreft een werkend prototype, met daarin de belangrijkste functies, zoals de locatie van de hotspots, de automatische zoom functie en een overlay die tevoorschijn komt met informatie. De volgende stap was het testen van verschillende versies doormiddel van een A-B gebruikerstest.</p>
                         <br />
                         <a className={sec_style.inbetween_button02}
-                            href="/documents/Project_document.pdf"
+                            href="http://demo.fluxpuck.com/demo1.html"
                             target="_blank">
-                            Eindproduct
+                            Versie 1 - Tweede Iteratie
+                        </a>
+                        <a className={sec_style.inbetween_button02}
+                            href="http://demo.fluxpuck.com/demo2.html"
+                            target="_blank">
+                            Versie 2 - Tweede Iteratie
                         </a>
                     </article>
                     <img src="/illustrations/undraw_design_team_af2y.svg" />

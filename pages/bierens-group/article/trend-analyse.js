@@ -45,9 +45,9 @@ const article = () => {
                         <p>Uit de trend analyse zijn relevante en toepasbare web technieken naar voren gekomen. Aan de hand van deze trends is een concept en technisch prototype ontwikkeld en gepresenteerd aan Bierens Group.</p>
                         <br />
                         <a className={sec_style.inbetween_button02}
-                            href="/documents/Project_document.pdf"
+                            href="/documents/Trend_Analyse.pdf"
                             target="_blank">
-                            Eindproduct
+                            Trend Analyse
                         </a>
                     </article>
                     <img src="/illustrations/undraw_design_team_af2y.svg" />

@@ -35,8 +35,10 @@ const article = () => {
                         <h2>Gebruikers Onderzoek #1</h2>
                         <p>Aan de hand van de tweede iteratie, het eerste functionele prototype, is er een gebruikersonderzoek gedaan. In dit onderzoek is getest welke versie de voorkeur schaft en of er nog verdere feedback verschaft kan worden.</p>
                         <h3>Aanpak</h3>
-                        <p>Naast het functionerende prototypen is een tweede prototype ontwikkeld met daarin andere hotspots. Hotspots zijn de gemarkeerde plekken op de 360-graden/panorama afbeelding. In het tweede prototype is het ontwerp van de hotspots veranderd van cirkels naar nummers. Het idee is dat numbers eenvoudiger te onthouden zijn, waardoor mensen alle voordelen van Bierens Group advocaten incasso kunnen vinden, zonder daarbij in herhaling te vallen en dezelfde voordelen openen.
-                            De test is online uitgevoegd doormiddel van de online usability-test tool Maze en heeft zich niet gericht op een specifieke doelgroep. Iedereen met interesse heeft het onderzoek in kunnen vullen.
+                        <p>Tijdens de tweede iteratie zijn er twee versies ontwikkeld, beide met aangepaste hotspots. De ene versie beschikt over cirkels, de andere versie over cijfers.
+                            De aanname is dat nummers eenvoudiger te onthouden zijn, waardoor mensen alle voordelen van Bierens Group advocaten incasso eenvoudiger kunnen vinden, zonder daarbij in herhaling te vallen en dezelfde voorkeuren meerdere keren openen.
+                            Er is een testplan opgezet, met daarin de doel van het onderzoek, de onderzoeksvragen, de doelgroep en meer.
+                            De test is online uitgevoegd doormiddel van de online usability-test tool Maze. De test-personen hebben een korte uitleg van de opdracht en het concept gekregen, waarna ze verzocht wordt het prototype te testen. Vervolgens hebben ze een voorkeur keuze kunnen maken, waarna de A-B test gevalideerd wordt door een card-sorting. Hierbij wordt er gekeken of de gebruikers weldegelijk het prototype uitgeprobeerd hebben. Als laatste wordt er nog verzocht feedback achter te laten.
                         </p>
                         <h3>Resultaat</h3>
                         <p>Uit het gebruikersonderzoek kan geconcludeerd worden dat de iteratie met cijfers de voorkeur heeft, boven de iteratie met cirkels. Verder geven test-personen aan dat de cijfers door het contrast (donkere cijfers, donkere achtergrond), niet altijd even zichtbaar is.</p>
@@ -44,9 +46,9 @@ const article = () => {
                         <p>Naast de A-B test heeft het onderzoek ook nog bruikbare feedback opgeleverd. De resultaten zijn verwerkt in een volgende iteratie.</p>
                         <br />
                         <a className={sec_style.inbetween_button02}
-                            href="/documents/Project_document.pdf"
+                            href="https://app.maze.co/report/ks3fcjuckphcfgv8"
                             target="_blank">
-                            Eindproduct
+                            Gebruikersonderzoek Resultatenx
                         </a>
                     </article>
                     <img src="/illustrations/undraw_design_team_af2y.svg" />
