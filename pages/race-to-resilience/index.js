@@ -214,10 +214,10 @@ const First_page = () => {
                             <div>
                                 <p>
                                     In de onderzoeksfase is er onderzoek gedaan naar de opgestelde deelvragen, doormiddel van literatuuronderzoek. Mijn onderzoeken hebben betrekking tot deelvraag 1 en deelvraag 4. Wat houdt een kennisplatform in? En hoe vertaal je het concept naar een mobiele interface?.
-                                    </p>
+                                </p>
                                 <p>
                                     Voor het doen van onderzoek is er een <Link href="/documents/Onderzoeksopzet.pdf"><u>onderzoek-opzet</u></Link> gemaakt. Hierin zijn de onderzoeksmethode en uitvoering beschreven. Onderzoek wordt gevormd vanuit een vraag. Deze vraag wordt opgedeeld in kleinere deelvragen. Door deelvragen eerst groot/breed te nemen en vervolgens de vragen steeds verdiepender te stellen, als het waren als een trechter, kan de deelvraag het beste beantwoord worden.
-                                    </p>
+                                </p>
                             </div>
                             <img src="/illustrations/undraw_Process_re_gws7.svg" />
                         </div>
@@ -311,17 +311,17 @@ const First_page = () => {
                             href="/documents/Digitale_platformen.pdf"
                             target="_blank">
                             Digitale platformen
-                            </a>
+                        </a>
                         <a className={frst_style.inbetween_button02}
                             href="/documents/Kwaliteiten_Mobiel_Interface.pdf"
                             target="_blank">
                             Kwaliteiten mobiele interface
-                            </a>
+                        </a>
                         <a className={frst_style.inbetween_button02}
                             href="/documents/Hoofd_onderzoek_document.pdf"
                             target="_blank">
                             Hoofd onderzoeks document
-                            </a>
+                        </a>
                     </div>
                 </section>
 
@@ -527,17 +527,17 @@ const First_page = () => {
                             href="/documents/Mobile_Design_Trend_Analyse.pdf"
                             target="_blank">
                             Trendanalyse
-                            </a>
+                        </a>
                         <a className={frst_style.inbetween_button02}
                             href="/documents/Heuristische_Evaluatie_Wikihow.pdf"
                             target="_blank">
                             Heuristische analyse
-                            </a>
+                        </a>
                         <a className={frst_style.inbetween_button02}
                             href="/documents/Userflow_Analyse_Kennis_platform_posten.pdf"
                             target="_blank">
                             Userflow analyse
-                            </a>
+                        </a>
                     </div>
                 </section>
 
