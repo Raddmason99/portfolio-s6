@@ -57,22 +57,24 @@ function MyApp({ Component, pageProps }) {
         if (pwa_btn) { pwa_btn.style.display = 'flex'; }
       });
 
-      pwa_btn.addEventListener('click', (event) => {
-        // hide our user interface that shows our A2HS button
-        pwa_btn.style.display = 'none';
-        // Show the prompt
-        deferredPrompt.prompt();
-        // Wait for the user to respond to the prompt
-        deferredPrompt.userChoice
-          .then((choiceResult) => {
-            if (choiceResult.outcome === 'accepted') {
-              console.log('User accepted the A2HS prompt');
-            } else {
-              console.log('User dismissed the A2HS prompt');
-            }
-            deferredPrompt = null;
-          });
-      });
+      if (pwa_btn) {
+        pwa_btn.addEventListener('click', (event) => {
+          // hide our user interface that shows our A2HS button
+          pwa_btn.style.display = 'none';
+          // Show the prompt
+          deferredPrompt.prompt();
+          // Wait for the user to respond to the prompt
+          deferredPrompt.userChoice
+            .then((choiceResult) => {
+              if (choiceResult.outcome === 'accepted') {
+                console.log('User accepted the A2HS prompt');
+              } else {
+                console.log('User dismissed the A2HS prompt');
+              }
+              deferredPrompt = null;
+            });
+        });
+      }
 
       // A common UX pattern for progressive web apps is to show a banner when a service worker has updated and waiting to install.
       // NOTE: MUST set skipWaiting to false in next.config.js pwa object
