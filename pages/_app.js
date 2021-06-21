@@ -41,6 +41,25 @@ function MyApp({ Component, pageProps }) {
         console.log(event)
       })
 
+
+      //LISTEN TO beforeinstallprompt To Promote PWA Installation!
+
+
+
+      // Initialize deferredPrompt for use later to show browser install prompt.
+      let deferredPrompt;
+
+      window.addEventListener('beforeinstallprompt', (event) => {
+        // Prevent the mini-infobar from appearing on mobile
+        event.preventDefault();
+        // Stash the event so it can be triggered later.
+        deferredPrompt = event;
+        // Update UI notify the user they can install the PWA
+        prompt();
+        // Optionally, send analytics event that PWA install promo was shown.
+        console.log(`'beforeinstallprompt' event was fired.`);
+      });
+
       // A common UX pattern for progressive web apps is to show a banner when a service worker has updated and waiting to install.
       // NOTE: MUST set skipWaiting to false in next.config.js pwa object
       // https://developers.google.com/web/tools/workbox/guides/advanced-recipes#offer_a_page_reload_for_users

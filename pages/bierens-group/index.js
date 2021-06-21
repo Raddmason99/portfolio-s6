@@ -190,6 +190,7 @@ const Second_page = () => {
                 </section>
 
             </main>
+
         </>
     );
 }

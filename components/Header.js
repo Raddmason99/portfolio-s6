@@ -17,7 +17,7 @@ const Header = () => {
     //change header on path
     let header_element = null
     if (path == '/') {
-        header_element = <div className={hdr_style.install_block}>
+        header_element = <div className={hdr_style.install_block} id="Install_Button">
             <FontAwesomeIcon icon={faPlus} /><p>Install me!</p>
         </div>
     } else {
