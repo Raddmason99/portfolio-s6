@@ -2,6 +2,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import ImageModalBox from '../../../components/ImageModal'
 
 //import styling
 import article_style from '../../../styles/Article.module.scss'
