@@ -129,7 +129,7 @@ const First_page = () => {
                 <section className={frst_style.inbetween01_container}>
                     <div className={frst_style.inbetween01_box}>
                         <a className={frst_style.inbetween_button01}
-                            href="/documents/Leeswijzer.pdf"
+                            href="/documents/Leeswijzer_EcoDorp_-_Mathijs_van_der_Kuijp.pdf"
                             target="_blank">
                             Leeswijzer
                         </a>
@@ -672,7 +672,7 @@ const First_page = () => {
                             GitLab Wiki
                         </a>
                         <a className={frst_style.inbetween_button02}
-                            href="/documents/"
+                            href="/documents/Overdrachts_Documentatie.pdf"
                             target="_blank">
                             Overdrachts Document
                         </a>
