@@ -48,7 +48,7 @@ const article = () => {
                             Marketing Strategie
                         </a>
                     </article>
-                    <img src="/illustrations/undraw_design_team_af2y.svg" />
+                    <img src="/illustrations/undraw_Analytics_re_dkf8.svg" />
                 </div>
 
             </main>

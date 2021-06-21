@@ -48,10 +48,10 @@ const article = () => {
                         <a className={sec_style.inbetween_button02}
                             href="https://app.maze.co/report/ks3fcjuckphcfgv8"
                             target="_blank">
-                            Gebruikersonderzoek Resultatenx
+                            Gebruikersonderzoek Resultaten
                         </a>
                     </article>
-                    <img src="/illustrations/undraw_design_team_af2y.svg" />
+                    <img src="/documents/Eerste_gebruikersonderzoek_resultaat.png" />
                 </div>
 
             </main>

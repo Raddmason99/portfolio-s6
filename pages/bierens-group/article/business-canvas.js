@@ -49,7 +49,7 @@ const article = () => {
                             Business Model Canvas
                         </a>
                     </article>
-                    <img src="/illustrations/undraw_design_team_af2y.svg" />
+                    <img src="/illustrations/undraw_All_the_data_re_hh4w.svg" />
                 </div>
 
             </main>

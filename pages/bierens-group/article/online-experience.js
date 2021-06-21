@@ -52,7 +52,7 @@ const article = () => {
                             Onderzoeks Document
                         </a>
                     </article>
-                    <img src="/illustrations/undraw_design_team_af2y.svg" />
+                    <img src="/illustrations/undraw_Freelancer_re_irh4.svg" />
                 </div>
 
             </main>

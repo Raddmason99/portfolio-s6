@@ -37,9 +37,6 @@ class ImageModalBox extends Component {
 
                 <img src={this.props.children.props.src} className={this.props.children.props.className} onClick={this.handleOpenModal} />
 
-                {console.log(this.props.children)}
-                {console.log(this.props.children.props.src)}
-
                 <ReactModal
                     isOpen={this.state.showModal}
                     contentLabel="Modal Box"

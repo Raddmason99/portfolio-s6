@@ -54,7 +54,7 @@ const article = () => {
                             Samenvatting Brainstorm
                         </a>
                     </article>
-                    <img src="/illustrations/undraw_design_team_af2y.svg" />
+                    <img src="/illustrations/undraw_teamwork_hpdk.svg" />
                 </div>
 
             </main>

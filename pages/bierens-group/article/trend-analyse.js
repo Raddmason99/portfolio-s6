@@ -2,6 +2,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import ImageModalBox from '../../../components/ImageModal'
 
 //import styling
 import article_style from '../../../styles/Article.module.scss'
@@ -50,7 +51,9 @@ const article = () => {
                             Trend Analyse
                         </a>
                     </article>
-                    <img src="/illustrations/undraw_design_team_af2y.svg" />
+                    <ImageModalBox>
+                        <img src="/documents/Trend_Canvas.png" />
+                    </ImageModalBox>
                 </div>
 
             </main>
