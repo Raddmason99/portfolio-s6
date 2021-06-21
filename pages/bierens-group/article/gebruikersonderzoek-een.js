@@ -51,7 +51,9 @@ const article = () => {
                             Gebruikersonderzoek Resultaten
                         </a>
                     </article>
-                    <img src="/documents/Eerste_gebruikersonderzoek_resultaat.png" />
+                    <ImageModalBox>
+                        <img src="/documents/Eerste_gebruikersonderzoek_resultaat.png" />
+                    </ImageModalBox>
                 </div>
 
             </main>

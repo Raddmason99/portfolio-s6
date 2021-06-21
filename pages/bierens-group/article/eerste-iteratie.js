@@ -54,8 +54,11 @@ const article = () => {
                             Eerste Iteratie
                         </a>
                     </article>
-                    {/* <img src="/illustrations/undraw_design_team_af2y.svg" /> */}
-                    <iframe src="http://demo.fluxpuck.com/concept.html" title="First Iteration"></iframe>
+
+                    <ImageModalBox>
+                        <img src="/documents/Parallex_walking.png" />
+                    </ImageModalBox>
+
                 </div>
 
             </main>
