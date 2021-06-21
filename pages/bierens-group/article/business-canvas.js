@@ -51,7 +51,7 @@ const article = () => {
                         </a>
                     </article>
                     <ImageModalBox>
-                        <img src="/documents/https://www.youtube.com/watch?v=jQ_qp_Nn09s.png" />
+                        <img src="/documents/Business_Model_Canvass.png" />
                     </ImageModalBox>
                 </div>
 
