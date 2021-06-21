@@ -50,7 +50,9 @@ const article = () => {
                             Business Model Canvas
                         </a>
                     </article>
-                    <img src="/illustrations/undraw_All_the_data_re_hh4w.svg" />
+                    <ImageModalBox>
+                        <img src="/documents/https://www.youtube.com/watch?v=jQ_qp_Nn09s.png" />
+                    </ImageModalBox>
                 </div>
 
             </main>

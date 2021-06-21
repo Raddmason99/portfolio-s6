@@ -105,6 +105,7 @@
 .art_container img {
     margin: auto;
     max-width: 100%;
+    cursor: pointer;
 
     @include media( "retina" ){
         

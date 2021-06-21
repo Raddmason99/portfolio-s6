@@ -33,7 +33,7 @@ const NotFound_page = () => {
     return ( //return page-elements
         <>
             <Head>
-                <title></title>
+                <title>Portfolio | Error Page</title>
             </Head>
             <main className="body_container">
 
