@@ -40,6 +40,11 @@
     font-weight: 100 !important;
 }
 
+.table_header {
+    background-color: $gray_02 !important;
+}
+
 .table_box tr:nth-child(even) {
    background-color: $green_05;
 }
+

@@ -143,6 +143,11 @@ const First_page = () => {
                             target="_blank">
                             Project Document
                         </a>
+                        <a className={frst_style.inbetween_button02}
+                            href="/misc/bewijs"
+                            target="_blank">
+                            Bewijslast
+                        </a>
                     </div>
                 </section>
 
