@@ -161,15 +161,6 @@ const Second_page = () => {
                     </div>
 
                     <div className={sec_style.analysis_box}>
-                        <Link href="/bierens-group/article/vijfde-iteratie">
-                            <div className={sec_style.analysis_boxer}>
-                                <h3>Vijfde Iteratie</h3>
-                                <img src="/illustrations/undraw_Code_review_re_woeb.svg" />
-                            </div>
-                        </Link>
-                    </div>
-
-                    <div className={sec_style.analysis_box}>
                         <Link href="/bierens-group/article/business-canvas">
                             <div className={sec_style.analysis_boxer}>
                                 <h3>Business Canvas</h3>

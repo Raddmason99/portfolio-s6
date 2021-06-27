@@ -49,12 +49,12 @@ const article = () => {
                         <p>Uit de onderzoeksresultaten valideren de navigatie features in de nieuwe iteratie en bevestigen de gemaakte ontwerpkeuzes. De navigatie is goed vindbaar en gebruikers kunnen zich navigeren door de verschillende scenes. Ook de informatie is goed vindbaar.</p>
                         <br />
                         <a className={sec_style.inbetween_button02}
-                            href="Gebruikeronderzoek_Navigatie.pdf"
+                            href="/documents/Gebruikeronderzoek_Navigatie.pdf"
                             target="_blank">
                             Gebruikersonderzoek Document
                         </a>
                         <a className={sec_style.inbetween_button02}
-                            href="Resultaten_Gebruikeronderzoek_twee.pdf"
+                            href="/documents/Resultaten_Gebruikeronderzoek_twee.pdf"
                             target="_blank">
                             Gebruikersonderzoek Resultaten
                         </a>
