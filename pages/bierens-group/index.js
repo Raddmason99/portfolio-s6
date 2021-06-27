@@ -33,7 +33,7 @@ const Second_page = () => {
                 <section className={sec_style.inbetween01_container}>
                     <div className={sec_style.inbetween01_box}>
                         <a className={sec_style.inbetween_button01}
-                            href="/documents/Leeswijzer.pdf"
+                            href="/documents/Leeswijzer_Bierens.pdf"
                             target="_blank">
                             Leeswijzer
                         </a>

@@ -129,7 +129,7 @@ const First_page = () => {
                 <section className={frst_style.inbetween01_container}>
                     <div className={frst_style.inbetween01_box}>
                         <a className={frst_style.inbetween_button01}
-                            href="/documents/Leeswijzer_Ecodorp.pdf"
+                            href="/documents/Leeswijzer_EcoDorp.pdf"
                             target="_blank">
                             Leeswijzer
                         </a>
