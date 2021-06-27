@@ -42,7 +42,7 @@ const Second_page = () => {
                             Onderzoeksvragen
                         </a>
                         <a className={sec_style.inbetween_button02}
-                            href="http://demo.fluxpuck.com/demo4/index.html"
+                            href="http://demo.fluxpuck.com/demo5/index.html"
                             target="_blank">
                             Eindproduct
                         </a>

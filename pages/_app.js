@@ -8,7 +8,6 @@ import 'nprogress/nprogress.css'; //styles of nprogress
 
 //import components
 import Layout from '../components/Layout'
-
 //import styles
 import styles from '../styles/app.scss'
 
@@ -22,7 +21,9 @@ function MyApp({ Component, pageProps }) {
   // This hook only run once in browser after the component is rendered for the first time.
   // It has same effect as the old componentDidMount lifecycle callback.
   useEffect(() => {
+
     if (typeof window !== 'undefined' && 'serviceWorker' in navigator && window.workbox !== undefined) {
+
       const wb = window.workbox
       // add event listeners to handle any of PWA lifecycle event
       // https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-window.Workbox#events
@@ -41,23 +42,22 @@ function MyApp({ Component, pageProps }) {
         console.log(event)
       })
 
+      //only show install prompt on home screen
+      if (Router.asPath == '/') {
 
+        // Initialize deferredPrompt for use later to show browser install prompt.
+        let pwa_btn = document.getElementById("Install_Button");
+        let deferredPrompt;
 
+        window.addEventListener('beforeinstallprompt', (event) => {
+          // Prevent Chrome 67 and earlier from automatically showing the prompt
+          event.preventDefault();
+          // Stash the event so it can be triggered later.
+          deferredPrompt = event;
+          // Update UI notify the user they can add to home screen
+          if (pwa_btn) { pwa_btn.style.display = 'flex'; }
+        });
 
-      // Initialize deferredPrompt for use later to show browser install prompt.
-      let pwa_btn = document.getElementById("Install_Button");
-      let deferredPrompt;
-
-      window.addEventListener('beforeinstallprompt', (event) => {
-        // Prevent Chrome 67 and earlier from automatically showing the prompt
-        event.preventDefault();
-        // Stash the event so it can be triggered later.
-        deferredPrompt = event;
-        // Update UI notify the user they can add to home screen
-        if (pwa_btn) { pwa_btn.style.display = 'flex'; }
-      });
-
-      if (pwa_btn) {
         pwa_btn.addEventListener('click', (event) => {
           // hide our user interface that shows our A2HS button
           pwa_btn.style.display = 'none';
@@ -74,7 +74,9 @@ function MyApp({ Component, pageProps }) {
               deferredPrompt = null;
             });
         });
+
       }
+
 
       // A common UX pattern for progressive web apps is to show a banner when a service worker has updated and waiting to install.
       // NOTE: MUST set skipWaiting to false in next.config.js pwa object
@@ -124,6 +126,7 @@ function MyApp({ Component, pageProps }) {
       // never forget to call register as auto register is turned off in next.config.js
       wb.register()
     }
+
   }, [])
 
   return (

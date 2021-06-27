@@ -42,7 +42,7 @@ const article = () => {
                         </p>
                         <h3>Resultaat</h3>
                         <p>Laurens en Natasha hebben de voorkeur voor een hybride concept van de concepten van Maximilian en Steven samen. Dit houdt in een combinatie van een 360 graden (panorama) scene en een concept waarin door verschillende proposities
-                            Bij Bierens Group is er gebrainstormd over de invulling van het concept. Hierbij is een media-designer van Bierens Group aangesloten. Er is bedacht om doormiddel van 360 graden / panorama afbeeldingen van het kantoor Bierens Group een kijkje in de keuken te geven. Door verschillende scenes te kiezen en te koppelen aan ruimtes binnen het kantoor, kan er een online experience gerealiseerd worden.
+                            Bij Bierens Group is er gebrainstormd over de invulling van het concept. Hierbij is een media-designer van Bierens Group aangesloten. Er is hier bedachtom doormiddel van 360-graden/panorama scenes van ruimtes binnen het Bierens Group kantoor in Veghel een online experience te realiseren, waarin doelgerichte informatie verteld wordt.
                         </p>
                         <h3>Conclusie</h3>
                         <p>De brainstorm-sessies waren zeer interessant en gaven veel nieuwe inzichten. Het gaf na een lange tijd van wisselende ideeen een duidelijke richting in het project. Het was daarbij zeer waardevol dat Bierens Group (Laurens, Natasha en de media designer) actief mee-deden aan de brainstorm.

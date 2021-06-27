@@ -34,14 +34,19 @@ const article = () => {
                 <div className={article_style.art_container}>
                     <article>
                         <h2>Online Experience</h2>
-                        <p>Met Laurens en Natasha van Bierens Group is er een gesprek geweest betreffende de inhoud van de opdracht. Aan de hand de opdracht analyse uit het gezamenlijke project document is er door mij literatuur onderzoek gedaan naar het hoofd-onderwerp van de opdracht, Online Experience. Dit onderzoek heeft als doel om te achterhalen wat een online experience is; welke verschillende soorten online experiences er zijn; wat de voordelen van een online experience zijn; wat kenmerken van een goede online experience zijn.</p>
+                        <p>Aan de hand van de opdracht analyse is er in samenwerking met Laurens en Natasha van Bierens Group een design challenge opgezet. Vervolgens zijn er rond deze design challenge deelvragen ontwikkeld. Een van de deelvragen had betrekking tot het onderwerp van de design challenge, een online experience.</p>
                         <h3>Aanpak</h3>
-                        <p>Door het beantwoorden van de deelvragen middels literatuuronderzoek, kan de hoofdvraag beantwoord worden.
-                            In het onderzoek is er begonnen met kijken naar wat de term online experience inhoudt. Vanuit deze term is er gekeken naar verschillende soorten online experiences en wat deze verschillende soorten inhouden. Vervolgens ik er onderzocht welke voordelen een online experience kan bieden en welke kenmerken horen bij een goede online experience.
+                        <p>Er is begonnen met het opzetten van sub-vragen onder de deelvraag. Door antwoord te geven op deze sub-vragen kan de deelvraag beantwoord worden en kan er relevante informatie vergaard worden voor het project.
+                            •	Wat is een online Experience?
+                            o	Welke verschillende soorten online experiences zijn er?
+                            o	Welke voordelen biedt een online experience?
+                            o	Wat zijn kenmerken van een goede online experience?
+                            Als eerste is er gekeken naar de term “een Online Experience”. Wat is de definitie van deze term? Hieruit kwam naar voren dat er verschillende soorten online experience zijn. Vervolgens is er onderzoek gedaan naar de voordelen en kenmerken van een online experience.
+                            In het onderzoek is gebruik gemaakt van recente literatuur.
                         </p>
                         <h3>Resultaat</h3>
-                        <p>Er zijn verschillende online experiences. Met een online experience kan een bedrijf een product of dienst promoten, of kan er een specifieke ervaring overgebracht worden op de gebruiker(s). Volgens een onderzoek van Event Markting Institute & Mosaic heeft 74% van de gebruikers een positievere mening na een positieve (online) experience. Daarbij komt kijken dat mensen met een positieve ervaring dit graag willen delen, waarmee ze (in)direct andere overtuigen van het bedrijf of de organisatie.
-                            Goede online experiences hebben een goede interactie tussen de experience en de gebruiker, waardoor de gebruiker een meer immersive experience heeft.
+                        <p>Uit het onderzoek kan geconcludeerd worden dat er verschillende online experiences bestaan. Met een online experience kan een bedrijf een product of dienst promoten, of kan er een specifieke ervaring overgebracht worden op de gebruiker(s). Volgens een onderzoek van Event Markting Institute & Mosaic heeft 74% van de gebruikers een positievere mening na een positieve (online) experience. Daarbij komt kijken dat mensen met een positieve ervaring dit graag willen delen, waarmee ze (in)direct andere overtuigen van het bedrijf of de organisatie.
+                            Goede online experiences hebben een goede interactie tussen het product en de gebruiker, waardoor de gebruiker een meer immersive experience heeft.
                             Verder hebben online experiences vergelijkbare UI en UX karaktiristieken met reguliere websites. Waarbij het tevens belangrijk is dat ze voldoen aan de geldende design principes. Ook is het belangrijk dat de online experience geoptimaliseerd is voor alle apparaten, sinds steed meer gebruikers gebruik maken van mobiele apparaten.
                         </p>
                         <h3>Conclusie</h3>

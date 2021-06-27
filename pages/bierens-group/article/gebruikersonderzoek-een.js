@@ -47,7 +47,12 @@ const article = () => {
                         <p>Naast de A-B test heeft het onderzoek ook nog bruikbare feedback opgeleverd. De resultaten zijn verwerkt in een volgende iteratie.</p>
                         <br />
                         <a className={sec_style.inbetween_button02}
-                            href="https://app.maze.co/report/ks3fcjuckphcfgv8"
+                            href="Gebruikeronderzoek_Hotspots.pdf"
+                            target="_blank">
+                            Gebruikersonderzoek Document
+                        </a>
+                        <a className={sec_style.inbetween_button02}
+                            href="Resultaten_Gebruikeronderzoek_een.pdf"
                             target="_blank">
                             Gebruikersonderzoek Resultaten
                         </a>
