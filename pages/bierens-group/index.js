@@ -46,7 +46,7 @@ const Second_page = () => {
                             target="_blank">
                             Eindproduct
                         </a>
-                        <a className={frst_style.inbetween_button02}
+                        <a className={sec_style.inbetween_button02}
                             href="/misc/bewijs"
                             target="_blank">
                             Bewijslast
