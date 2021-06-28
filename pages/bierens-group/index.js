@@ -46,6 +46,11 @@ const Second_page = () => {
                             target="_blank">
                             Eindproduct
                         </a>
+                        <a className={frst_style.inbetween_button02}
+                            href="/misc/bewijs"
+                            target="_blank">
+                            Bewijslast
+                        </a>
                     </div>
                 </section>
 
@@ -74,7 +79,7 @@ const Second_page = () => {
 
                 <section id='products' className={sec_style.products_container}>
                     <h2>Products</h2>
-                    <p>Alle deel producten van dit project zijn te vinden op de onderstaande kaartjes en dragen ieder bij aan de user-story van mijn deel van het gezamenlijke project. Lees de leeswijzer om heel het proces te volgen. Bekijk al het bewijslast op deze <a href="/misc/bewijs" className="underline">pagina</a>.</p>
+                    <p>Alle deel producten van dit project zijn te vinden op de onderstaande kaartjes en dragen ieder bij aan de user-story van mijn deel van het gezamenlijke project. Lees de leeswijzer om heel het proces te volgen.</p>
                 </section>
 
                 <section id='cards' className={sec_style.cards_container}>
