@@ -98,7 +98,7 @@ const vw_page = () => {
                         <tr>
                             <td>Professionele houding</td>
                             <td>De student betrekt zelfreflectie en ontvangen feedback op eigen functioneren. Hij toont initiatief en werkt resultaatgericht.</td>
-                            <td><a href="https://fhict-fluxpuck.vercel.app/documents/EcoDorp_Trello.png">Trello</a> Ecodorp | <a href="https://fhict-fluxpuck.vercel.app/documents/Bierensgroup_Trello.png">Trello</a> Bierens Group</td>
+                            <td><a href="https://fhict-fluxpuck.vercel.app/documents/EcoDorp_Trello.png">Trello</a> Ecodorp | <a href="https://fhict-fluxpuck.vercel.app/documents/Bierensgroup_Trello.png">Trello</a>,<a href="https://fhict-fluxpuck.vercel.app/documents/Natasha_feedback.pdf">Feedback Natasha</a>  Bierens Group | <a href="https://fhict-fluxpuck.vercel.app/documents/Peer_feedback.pdf">Peer Feedback</a></td>
                         </tr>
 
                         <tr>
@@ -146,7 +146,7 @@ const vw_page = () => {
                         <tr>
                             <td>Development</td>
                             <td>De student kan zelfstandig ICT & Media Design oplossingen realiseren, testen en overdragen.</td>
-                            <td><a href="https://docs.google.com/document/d/1VHl7L82AVpqUz4ym-aPivCQOPWPyQ7K8xioUilUDZBE/edit#heading=h.8uiub4ywhusu">Overdracht documentatie</a>, <a href="https://git.fhict.nl/I382255/race-to-resilience/-/wikis/home">Overdracht Wiki</a>, <a href="https://git.fhict.nl/I382255/race-to-resilience/">Project Code Gitlab</a> Ecodorp | <a href="http://demo.fluxpuck.com/">Prototypes</a>, <a href="https://git.fhict.nl/I370416/bierensgroup/">Product Code Gitlab</a> Bierens</td>
+                            <td><a href="https://docs.google.com/document/d/1VHl7L82AVpqUz4ym-aPivCQOPWPyQ7K8xioUilUDZBE/edit#heading=h.8uiub4ywhusu">Overdracht documentatie</a>, <a href="https://git.fhict.nl/I382255/race-to-resilience/-/wikis/home">Overdracht Wiki</a>, <a href="https://race-to-resillience.vercel.app/">Online Prototype</a> <a href="https://git.fhict.nl/I382255/race-to-resilience/">Project Code Gitlab</a> Ecodorp | <a href="http://demo.fluxpuck.com/">Prototypes</a>, <a href="https://git.fhict.nl/I370416/bierensgroup/">Product Code Gitlab</a> Bierens</td>
                         </tr>
 
                     </table>
